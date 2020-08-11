@@ -26,6 +26,24 @@ Click the Button below to spin up the book in GitPod.
 * [Chapter 3: JavaScript Datatypes & fundementals](ch3.md)
 
 
+## For more chapters, consider following on:
+The majority of the content in this repository is the refined version of the content found in [OSS Books](https://github.com/HansUXdev/OSS-Books) as begin to formalize everything for a legitimate chapter. I write my code snippets and notes and everything there before publishing it and bringing it over here.
+
+<a href="https://medium.com/@hansOnConsult" class="MEDIUM">
+   <img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />
+</a>
+<a href="https://dev.to/hansuxdev" class="DEV TO">
+   <img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" />
+</a>
+<a href="https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about" class="YOUTUBE">
+   <img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" />
+</a>
+
+<a href="https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about" class="Twitch">
+   <img src="https://img.shields.io/twitch/status/hansoncoding?style=for-the-badge" />
+</a>
+
+
 
 ## Publishing
 
@@ -33,7 +51,7 @@ As always, you'll be able to read this book online entirely for free.
 
 <!-- This edition of the books is being self-published through [GetiPub](https://geti.pub) publishing. The published books will be made available for sale through normal book retail sources. -->
 
-If you'd like to contribute financially towards the effort creating this book, please consider following me on [medium](https://medium.com/@HansOnConsult), reading the articles on there and clapping / sharing them.
+If you'd like to contribute financially towards the effort creating this book, please consider following me on [medium](https://medium.com/@HansOnConsult), reading the articles on there and clapping / sharing them actually help more than you'd think.
 
 You can also contribute more significantly by becoming a direct sponsor please consider these options:
 
