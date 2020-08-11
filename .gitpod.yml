@@ -1,5 +1,6 @@
 tasks:
   - init: echo "Replace me with a build script for the project."
-    command: mkdir -p /workspace/data && mongod --dbpath /workspace/data
+  # Users should uncomment this line when they get to the mongo section.
+    # command: mkdir -p /workspace/data && mongod --dbpath /workspace/data
 image:
   file: .gitpod.Dockerfile
