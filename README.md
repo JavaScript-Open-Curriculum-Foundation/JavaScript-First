@@ -22,8 +22,8 @@ Click the Button below to spin up the book in GitPod.
 <!-- * [Foreword](foreword.md) (by [Hans McMurdy]()
 * [Preface](./preface.md) -->
 * [Chapter 1: History of JavaScript](./01-History-of-JS/A-brief-history.md)
-* [Chapter 2: Learning Terminal, NVM & Node.js](ch2.md)
-* [Chapter 3: JavaScript Datatypes & fundementals](ch3.md)
+* [Chapter 2: Learning Terminal, NVM & Node.js](./02-Introduction-Node-WIth-NVM/1-terminal-basics-and-installing-nvm-node-js.md)
+<!-- * [Chapter 3: JavaScript Datatypes & fundementals](./03-DataTypes/00-[RAW]what-do-you-really-know-about-javascript.md) -->
 
 
 ## For more chapters, consider following on:
