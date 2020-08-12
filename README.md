@@ -4,14 +4,17 @@
 <p align="center">In this book, you'll learn how to code with JavaScript using the node.js runtime environment rather than a browser and by the end, you will build a server and a website using JavaScript.
 </p>
 
-# Author(s):
-By Brett "Hans" McMurdy
 -----
 
-# How to use 
-Just click the button above or the GIF below. Phone, Tablet, Mac, Windows, Linux, Chromebook, as long as GitPod runs, you can learn how to code, anywhere!
 
-[![Open in Gitpod](GitPodUse.gif)](https://b7583dfc-7707-4898-acea-c8a61f65c8a0.ws-us02.gitpod.io/#/workspace/JavaScript-First)
+# Read and Code Along!
+
+Just click the button above or the GIF below. Phone, Tablet, Mac, Windows, Linux, Chromebook, as long as GitPod runs, you can learn how to code, anywhere!
+<p align="center">  
+   <a href="https://b7583dfc-7707-4898-acea-c8a61f65c8a0.ws-us02.gitpod.io/#/workspace/JavaScript-First)"><img src="http://gitpod.io/button/open-in-gitpod.svg" alt="Gray shape shifter" height="50px"/></a>  
+</p>
+
+
 
 # Table of Contents
 
