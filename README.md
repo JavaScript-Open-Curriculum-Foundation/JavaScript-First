@@ -16,14 +16,21 @@ Click the Button below to spin up the book in GitPod.
 [![Open in Gitpod](http://gitpod.io/button/open-in-gitpod.svg)](https://b7583dfc-7707-4898-acea-c8a61f65c8a0.ws-us02.gitpod.io/#/workspace/JavaScript-First)
 
 -----
+# How to use 
+Just click the button above or the GIF below. Phone, Tablet, Mac, Windows, Linux, Chromebook, as long as GitPod runs, you can learn how to code, anywhere!
 
-[Table of Contents](toc.md)
+[![Open in Gitpod](GitPodUse.gif)](https://b7583dfc-7707-4898-acea-c8a61f65c8a0.ws-us02.gitpod.io/#/workspace/JavaScript-First)
+
+
+# [Table of Contents]()
 
 <!-- * [Foreword](foreword.md) (by [Hans McMurdy]()
 * [Preface](./preface.md) -->
 * [Chapter 1: History of JavaScript](./01-History-of-JS/A-brief-history.md)
 * [Chapter 2: Learning Terminal, NVM & Node.js](./02-Introduction-Node-WIth-NVM/1-terminal-basics-and-installing-nvm-node-js.md)
-<!-- * [Chapter 3: JavaScript Datatypes & fundementals](./03-DataTypes/00-[RAW]what-do-you-really-know-about-javascript.md) -->
+
+(Needs to be rewritten in markdown... bare with me...)
+* [Chapter 3: JavaScript Datatypes & fundementals](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78)
 
 
 ## For more chapters, consider following on:
