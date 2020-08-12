@@ -4,3 +4,24 @@ tasks:
     # command: mkdir -p /workspace/data && mongod --dbpath /workspace/data
 image:
   file: .gitpod.Dockerfile
+vscode:
+  extensions:
+    - svipas.control-snippets@1.9.1:tTOr8FomaWXl1OyvsZP1SQ==
+    # Snippets
+    - abusaidm.html-snippets@0.2.1:7b7Vkkp6Lem9WOqKCYMq2w==
+    - Zignd.html-css-class-completion@1.19.0:b3YWQQIEP1z3u93nyLX0UA==
+    - thekalinga.bootstrap4-vscode@6.1.0:duaQhthWtxWBzXAGe+5GKQ==
+    - dsznajder.es7-react-js-snippets@2.8.2:Oslxvz4UUDeKPjbcLgPwdQ==
+    - fivethree.vscode-ionic-snippets@2.2.2:Ply5R23KZJUx7j67niwLJQ==
+    - fivethree.vscode-svelte-snippets@0.5.0:rRkcaFrMb8wbTuH6kbGEQQ==
+    
+    # Lint
+    - dbaeumer.vscode-eslint@2.1.3:1NRvj3UKNTNwmYjptmUmIw==
+    # View Documents
+    - bringout.pdf-view@2.2.2:m2alWRlC9L/tyX8kV/oeNg==
+    # Documentation
+    - joelday.docthis@0.7.1:OOpm9cdbc8T5+PL4o+MM3Q==
+    - aaron-bond.better-comments@2.1.0:w1dHZXyFPGn7vpca57Nf5g==
+    # SVG
+    - jock.svg@1.3.5:saP8NjiKhPIJgolGEL9E3g==
+    - idleberg.svg-icons@0.7.0:ktzpetSpTEIdU0RF39/Dgg==
