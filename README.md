@@ -13,7 +13,7 @@ GitPod is used to provide my readers with a zero-config developer environment wh
 
 Click the Button below to spin up the book in GitPod.
 
-[![Open in Gitpod](http://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/gitpod-io/gitpod-status)
+[![Open in Gitpod](http://gitpod.io/button/open-in-gitpod.svg)](https://b7583dfc-7707-4898-acea-c8a61f65c8a0.ws-us02.gitpod.io/#/workspace/JavaScript-First)
 
 -----
 
