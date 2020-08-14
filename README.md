@@ -1,7 +1,7 @@
 
 <p align="center">
    <a href="https://github.com/users/HansUXdev/sponsorship">
-      <img src="./logo.svg" style="max-width:50%;" height="15em" alt="JavaScript Logo"/>
+      <img src="./logo.svg" style="max-width:50%;" height="200px" alt="JavaScript Logo"/>
    </a>
 </p>
 <h1 align="center"> JavaScript First</h1>
