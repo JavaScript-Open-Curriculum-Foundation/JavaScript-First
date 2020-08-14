@@ -16,7 +16,7 @@
 Just click the button above or the GIF below. Phone, Tablet, Mac, Windows, Linux, Chromebook, as long as GitPod runs, you can learn how to code, anywhere!
 
 <p align="center">  
-   <a href=""><img src="http://gitpod.io/button/open-in-gitpod.svg" alt="Gray shape shifter" height="50px"/></a>  
+   <a href="https://gitpod.io/#https://github.com/HansUXdev/JavaScript-First"><img src="http://gitpod.io/button/open-in-gitpod.svg" alt="Gray shape shifter" height="50px"/></a>  
 </p>
 
 GitPod is used to provide my readers with a zero-config developer environment where they can follow along even on a chromebook or tablet. It will also allow you to do things like learn mongodb, 
