@@ -5,7 +5,7 @@
       <animate attributeName="d" from="m0,210 h0" to="m0,210 h1100" dur="6.8s" begin="0s" repeatCount="indefinite"/>
     </path>
     <path id="first">
-      <animate attributeName="d" from="m0,310 h0" to="m0,310 h1100" dur="6.8s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="d" from="m0,310 h0" to="m0,310 h1100" dur="6.8s" begin="2s" repeatCount="indefinite"/>
     </path>
 
         <rect x="0" y="0" width="520" height="520" fill="#f7e019" stroke="#000000" pointer-events="all"/>
