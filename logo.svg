@@ -1,15 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="521px" height="520px" viewBox="-0.5 -0.5 521 1126">
     <defs/>
     <g>
-        <rect x="0" y="433" width="520" height="520" fill="#f7e019" stroke="#000000" pointer-events="all"/>
+    <path id="path">
+      <animate attributeName="d" from="m0,210 h0" to="m0,210 h1100" dur="6.8s" begin="0s" repeatCount="indefinite"/>
+    </path>
+    <path id="first">
+      <animate attributeName="d" from="m0,310 h0" to="m0,310 h1100" dur="6.8s" begin="0s" repeatCount="indefinite"/>
+    </path>
+
+        <rect x="0" y="0" width="520" height="520" fill="#f7e019" stroke="#000000" pointer-events="all"/>
         <g transform="">
-          <text x="261" y="670" fill="#000000" font-family="Helvetica" font-size="100px" text-anchor="middle">
-              JavaScript
-          </text>
+            <text  x="261" y="670" fill="#000000" font-family="Helvetica" font-size="100px" text-anchor="middle">
+              <textPath xlink:href="#path">JavaScript
+              </textPath>
+            </text>
         </g>     
         <g transform="">
           <text x="261" y="800" fill="#000000" font-family="Helvetica" font-size="100px" text-anchor="middle">
-              First
+               <textPath xlink:href="#first">First</textPath>
           </text>
         </g>
     </g>
