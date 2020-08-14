@@ -1,56 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="522px" height="1127px" viewBox="-0.5 -0.5 522 1127" content="&lt;mxfile host=&quot;ac9f96c2-de61-4bfb-9044-fd6123d97516&quot; modified=&quot;2020-08-14T20:17:31.676Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.0 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36&quot; etag=&quot;YKEOYmjJl1QTs_js2Vqk&quot; version=&quot;13.1.3&quot;&gt;&lt;diagram id=&quot;6hGFLwfOUW9BJ-s0fimq&quot; name=&quot;Page-1&quot;&gt;zVZNc5swEP01HNPhy9g+Bn+005mefOhZRmvQRCAq5ID767tCEoZApukkndYXxNvVQ/v2sdiLdmX3WZK6+CYocC/0aedFey8MV8nWx4tGbgZJYofkklGDjYAT+wkGDBx6ZRSaSaISgitWWzAwYCaqCjI1SSRSina69yI4neyrSQ6TDA2cMsJhlvadUVXYwkbJX4DlhX1wZOCSuESb1xSEinYERQcv2kkhlFmV3Q64Vm6qyfGV6HAoCZV6y4at2fBM+NXWZc+lbq7QXIprbdNAKuiW5CVn/lKt+xGCoTC0A4gSlLxhiiOK7RbrhIfBG+1IV8dbjERdbVw/bS/zgfxeMi5s1csKxL9XoC2YglNNMn3fop+9KC1UiYz7AJekqY3BLqwDZE0bJcUT7AQXsieI/P6HkQvjfIQf1wc/2CI+12z7iuJzGd0L9FbRwg8QLVkQLeFK6xJMtEt+XLWV08wU/YjBMyfZ0z2Cq9xee4KLQAmWKHTgoenngKbxP4VQzmm+kmdyyiSrlSPEWgzn9DkI67M68EXLUXQ17fK4dZWoQDees7zC2wy7BoinulsMR8SjDZSMUs2YLjkIX6uKar/sfVudHXJhb5VhMvjv9IeNxpuZP2LXx7E/wvUH+GPzfn+Ysv2zkBRspJf9bxnnyGTzX3nmH/nDjpP1fJws2iVa/bld8Pb+hetjoz8J0eEX&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="521px" height="300px" viewBox="-0.5 -0.5 521 1126">
     <defs/>
     <g>
-        <rect x="0" y="433" width="520" height="520" fill="#f7e019" stroke="#000000" pointer-events="all"/>
+        <rect x="0" y="433" width="520" height="20" fill="#f7e019" stroke="#000000" pointer-events="all"/>
         <rect x="48" y="373" width="426" height="270" fill="none" stroke="none" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
-            <switch>
-                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 424px; height: 1px; padding-top: 508px; margin-left: 49px;">
-                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
-                            <div style="display: inline-block; font-size: 200px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                <h1 style="color: black">
-                                    <font style="font-size: 0.2em">
-                                        JavaScript
-                                    </font>
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                </foreignObject>
                 <text x="261" y="568" fill="#000000" font-family="Helvetica" font-size="200px" text-anchor="middle">
-                    JavaS...
+                    JavaScript
                 </text>
-            </switch>
         </g>
         <rect x="48" y="443" width="426" height="350" fill="none" stroke="none" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
-            <switch>
-                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 618px; margin-left: 261px;">
-                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
-                            <div style="display: inline-block; font-size: 200px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
-                                <h1 style="color: black ; border: none">
-                                    <font style="font-size: 0.2em">
-                                        First
-                                    </font>
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                </foreignObject>
                 <text x="261" y="678" fill="#000000" font-family="Helvetica" font-size="200px" text-anchor="middle">
                     First
                 </text>
-            </switch>
         </g>
     </g>
-    <switch>
-        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
-        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
-            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
-                Viewer does not support full SVG 1.1
-            </text>
-        </a>
-    </switch>
 </svg>
