@@ -1,70 +1,129 @@
+# What do you really know about variables data types and immutability in javascript?
 
-what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript
+Consider viewing the [Medium Article](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78), as it helps support the author.
 
-[Friend Link](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78)
-
-
-
-
-(Re)Teaching JavaScript Fundamentals in 2020
-What do you really know about Variables, Data Types and Immutability in JavaScript?
-Learn how to Code in 2020: Part 2
 Unlike the prior article, this will be a bit higher level because I want to try and fill a knowledge gap between entry-level and mid-level developers by reteaching some core fundamentals.
-This article is part of an ongoing educational series that will be turned into a book and therefore is considered a "living article" subject to change.
-If you have question, want to contribute or just wanna chat about the content, leave a comment!
-If you have a find a bug, typo, DM me on twitter @HansOnConsult.
-If you want to contribute to the book, see the GitHub page: https://github.com/HansUXdev/UniversalJavaScript
-Fancy Fancy Mandatory Image - Photo by Markus Spiske on UnsplashThe goal for this article isn't to explain everything in JavaScript in overwhelming detail but rather summarize the essentials as plainly as possible and link to other resources for readers who want to explore those topics more thoroughly.
+
+> This article is part of an ongoing educational series that is being turned into an [interactive book](https://github.com/HansUXdev/JavaScript-First) and therefore subject to change.
+
+> If you have liked, this you what to do, if you didn't, leave a comment as some feedback. If want to contribute or just wanna chat about the content, leave a comment!  If you want to contribute to the book, check it out on [GitHub](https://github.com/HansUXdev/JavaScript-First/issues)
+
+The goal for this article isn't to explain everything in JavaScript in overwhelming detail but rather summarize the essentials as plainly as possible and link to other resources for readers who want to explore those topics more thoroughly.
+
 This article will also be treating ES6 as standard JavaScript as it is supported in all modern browsers unless you are supporting an insecure browser like Internet Explorer (which you shouldn't be). It will also use screenshots for most code examples in order to encourage readers to type it.
-In summary, you will learn how to:
-Explain var with concepts such as hoisting.
-Explain variable declarations such as var, let and const in the context of data-types, scope, and immutability.
-Identify a variable as either a primitive type or non-primitive data type
-Use JavaScript Operators to assign variables and understand data types.
-Explain immutability by contrasting variable declarations and their assigned data-types
 
-For experienced JavaScript developers, this article may seem a bit redundant and basic because I'm writing for complete beginners as well. That being said immutability still a confusing topic even for many mid-senior developers and its largely due to a myth that const magically makes things immutable (it doesn't).
-Variables
+## In summary, you will learn how to:
+1. Explain var with concepts such as hoisting.
+2. Explain variable declarations such as var, let and const in the context of data-types, scope, and immutability.
+3. Identify a variable as either a primitive type or non-primitive data type
+4. Use JavaScript Operators to assign variables and understand data types.
+5. Explain immutability by contrasting variable declarations and their assigned data-types
+
+For experienced JavaScript developers, this article may seem a bit redundant and basic because I'm writing for complete beginners as well.
+
+> Immutability still a confusing topic even for many mid-senior developers and its largely due to a myth that `const` magically makes things immutable (it doesn't).
+
+## Variables
 In general, programming languages have 3 steps for working with variables:
-declaration, creating a variable.
-assignment, providing a variable with a value.
-usage, when the code runs the variable.
+1. **declaration**, creating a variable.
+2. **assignment**, providing a variable with a value.
+3. **usage**, when the code runs the variable.
 
-Assigning values with Operators
+## Assigning values with Operators
 In JavaScript, there are a number of operators, the most commonly used are include Assignment operators, Comparison operators, Arithmetic operators.
-3 most common categories of JavaScript operatorsThere are however a few others that we won't be going into such as bitwise, etc.
-When learning any new programming language its useful to start out learning variables and specifically the Assignment operators because its how we assign values such as the data type to a variable. After that, working with Comparison operators helps to ease the transition into basic control flow using the ternary operator. Finally, for math, we have the Arithmetic operators and the math object.
-Googling how to write various math equations with JavaScript can not only help solve student's homework but can also be a fun way to learn programming and math in an applied manner… Something I may add, is sorely lacking in educational institutions at all levels.
-Here's an example of using JavaScript functions and arithmetic operators to define a Pythagorean theorem function.
-JavaScript Pythagorean theorem functionHere we have a simple applied mathematic function using JavaScript. Here we are using JavaScript built-in Math object to get the squared values of sideA and sideB, then using the addition operator we add to them together and get the square root. So (16) + (9) = 25. Then using Math.sqrt(25);//5.
-As a Coding Exercise, when you are done reading this article, check out this list of equations and try to write as many of them as simple JavaScript functions.
-Hoisting with "var"
-As mentioned above, we generally need to declare a variable, then initialize it by assigning it with a value and finally, we use it somewhere. In JavaScript, we can actually skip the first step, declaration and just assign a variable with value then use it in a process called, hoisting. This process is visualized below when var is added to the top, or hoisted to the top.
 
-Photo by Hans McMurdy - JavaScript Hoisting variables & scope
-The process of hoisting refers to how the variable declaration is hoisted to the top when the code is compiled for the machine to read it.
+> We operators during assignment phase, to provide a variable a given value.
+
+```javascript
+var number=100; 
+let string="100"; 
+let string="100"; 
+console.log(number);
+```
+
+[![Table of 3 most common categories of JavaScript operators](./operators.drawio.svg)]()
+
+
+There are however a few others that we won't be going into such as bitwise, etc.
+
+When learning any new programming language its useful to start out learning variables and specifically the Assignment operators because its how we assign values such as the data type to a variable. After that, working with Comparison operators helps to ease the transition into basic control flow using the ternary operator. Finally, for math, we have the Arithmetic operators and the math object.
+
+Googling how to write various math equations with JavaScript can not only help solve student's homework but can also be a fun way to learn programming and math in an applied manner… Something I may add, is sorely lacking in educational institutions at all levels.
+
+Here's an example of using JavaScript functions and arithmetic operators to define a Pythagorean theorem function.
+
+[![JavaScript Pythagorean theorem function](./pythagorean.png)]()
+
+
+Here we have a simple applied mathematic function using JavaScript. Here we are using JavaScript built-in Math object to get the squared values of sideA and sideB, then using the addition operator we add to them together and get the square root. So (16) + (9) = 25. Then using Math.sqrt(25);//5.
+
+As a Coding Exercise, when you are done reading this article, check out this list of equations and try to write as many of them as simple JavaScript functions.
+
+## Hoisting with "var"
+As mentioned above, we generally need to **declare** a variable, then initialize it by **assigning** it with a value and finally, we use it somewhere. In JavaScript, we can actually skip the first step, declaration and just assign a variable with value then use it in a process called, hoisting. 
+
+```javascript
+number=100; 
+console.log(number);
+```
+
+In the node,
+```javascript
+number=100; 
+console.log(global.number);
+```
+
+In the browser,
+```javascript
+number=100; 
+console.log(window.number);
+```
+
+
+This process is visualized below when var is added to the top, or hoisted to the top.
+
+
+[![JavaScript Hoisting variables & scope](./hoisting.gif)]()
+
+> The process of hoisting refers to how the variable declaration is hoisted to the top when the code is compiled for the machine to read it.
+
 Now that we have described the process of creating variables in the context of hoisting, let's put it into the context of scope and immutability. 
 There are a few more things I want to quickly point out from the gif:
-Hosting only works with var so it won't hoist a declaration withlet & const, meaning hoisted variables will never be block scoped.
-In general, you should try and void purposely hoisting variables because it is considered bad practice as it can create global variables that aren't needed and cause bloated applications
-let and const are both block scope and neither are magically immutable. A variable with const must be declared and assigned a value or it will remain empty because the declaration type disables reassignment and throws a type error when you try.
-"True" immutability happens only when we are working with const, primitive-types or when we use additional methods to non-primitives such as freeze, seal, etc. This means var, let and const can all be immutable and the only difference is the scope of the variable and whether or not you can reassign the value.
-Last but not least is the distinction of var in a browser vs in a nodeJS environment. Both environments allow hoisting but the global object that var is bound to is different. We'll discuss this more when we go over the scope later in this article.
+1. Hosting only works with `var` so it won't hoist a declaration withlet & const, meaning hoisted variables will never be block scoped.
+2. In general, you should try and void purposely hoisting variables because it is considered bad practice as it can create global variables that aren't needed and cause bloated applications
+3. `let` and `const` are both block scope and neither are magically immutable. A variable with const must be declared and assigned a value or it will remain empty because the declaration type disables reassignment and throws a type error when you try.
+4. "True" immutability happens only when we are working with const, primitive-types or when we use additional methods to non-primitives such as freeze, seal, etc. This means var, let and const can all be immutable and the only difference is the scope of the variable and whether or not you can reassign the value.
+5. Last but not least is the distinction of var in a browser vs in a nodeJS environment. Both environments allow hoisting but the global object that var is bound to is different. We'll discuss this more when we go over the scope later in this article.
 
-What is immutability?
-Before we discuss immutability lets first off, delete any possible preconceived ideas about const and immutability. It's about a variable (re)assignment. Immutability is when "an object's state cannot be modified after it is created" whereas Mutability refers to "an object whose state can be modified after it is created." There is also a difference between weak immutability and strong immutability.
-As a language, JavaScript is by default weakly immutable for two reasons:
-Primitives are weakly immutable by default unless const is used. 
-What this means is although a primitive value won't change when a method like toUpperCase(); is used, it can be reassigned to a new value, thus weakly mutating it. const solves this and makes variables unable to be reassigned while also changing the scope.
-Non-Primitive Objects or basically anything that has a reference value is mutable unless you use const and other methods such as seal or freeze methods.
+## What is immutability?
+Before we discuss immutability lets first off, delete any possible preconceived ideas about const and immutability. It's about a variable (re)assignment.
+> **Immutability** is when "an object's state cannot be modified after it is created" whereas Mutability refers to "an object whose state can be modified after it is created." There is also a difference between weak immutability and strong immutability.
 
-We'll cover this topic more throughout the article but for a more in-depth understanding, I highly reading the following article by Gabriel Lebec:
-Four Ways to Immutability in JavaScript
-This article presents four different techniques to immutably update data structures in JavaScript: Many of the code…dev.to
-Variable Declarations
-The most important part of variables declaration is how you are managing the scope of variables. In other words, What are you using the variable for? Where will it be used in the application? How should the variable be scoped? Should the value be allowed to change, mutate or be reassigned? Finally, how are you keeping track of and preventing mutations in an application?
+As a language, JavaScript is by default **weakly immutable **for two reasons:
+1. **Primitives** are weakly immutable by default unless const is used. What this means is although a primitive value won't change when a method like toUpperCase(); is used, it can be reassigned to a new value, thus weakly mutating it. `const` solves this and makes variables unable to be reassigned while also changing the scope.
+ 
+3. **Non-Primitive Objects** or basically anything that has a reference value is mutable unless you use const and other methods such as seal or freeze methods and even then then it's only immutable a few layers deep. 
+
+### Readings for more advanced devs:
+-  This is easier to understand when you compare it to [typeScript's implementation of as const](https://basarat.gitbook.io/typescript/future-javascript/const).
+
+We'll cover this topic more throughout the article but for a more in-depth understanding, I highly reading the following article by Gabriel Lebec, [Four Ways to Immutability in JavaScript](https://dev.to/glebec/four-ways-to-immutability-in-javascript-3b3l) as the article presents four different techniques to immutably update data structures in JavaScript.
+
+
+
+
+
+## Variable Declarations
+> The most important part of variables declaration is how you are managing the scope of variables. In other words, What are you using the variable for? Where will it be used in the application? How should the variable be scoped? Should the value be allowed to change, mutate or be reassigned? Finally, how are you keeping track of and preventing mutations in an application?
+
 Every programming language has different ways of declaring variables. In a dynamically typed language like JavaScript, we declare a variable with var, let and const. The last two variable declarations were part of a 2015 update to the language's standardization, known as ECMAScript. That, however, is the last time I will use that word and instead I'll just refer to these parts as modern JavaScript, or simply JavaScript because it has been 5 years and its time to get over the buzz word.
+
 Photo by Hans McMurdy - Const & Mutable Object in JavaScript ExampleAs most people should already know, by now, var is function scoped whereas let & const are blocked scoped and the "tricky part" of const is that it can't be "reassigned" a value or be "redeclared".
+
+
+[![JavaScript Hoisting variables & scope](./Declaration/const.png)]()
+
+
 Seems easy enough right?
 But wait, if you run the code in the image, why does mutable.title have a value of "teacher" if it cannot be reassigned?
 Isn't const supposed to be a constant value? It's supposed to be immutable too right? That's what this book, certification, article or YouTuber told me.
@@ -193,8 +252,8 @@ Shub'' five use cases of this:
 
 Ilona Shub: What the hell is this?1. Function Invokation 
 (1:28)
-2. Method Calls on Objects (1:56)
-3. "new" keyword 
+1. Method Calls on Objects (1:56)
+2. "new" keyword 
 (2:55)
 4. Explicit Binding 
 (3:25)
@@ -243,3 +302,7 @@ First and foremost it encourages technical writers like myself to write more con
 Second, I use the passive income from writing to for my kiddo.
 So every read, clap, comment, and every penny goes to his future.
 That being said, if you can afford Netflix, you can probably afford a $5 medium account so please consider signing up for a paid account and growing the entire medium community.
+
+# Resources & References
+1. [Wrapper Objects](https://medium.com/javascript-in-plain-english/javascript-mistakes-wrappers-and-objects-98d70dd6bb7f)
+2. [refactoring](https://levelup.gitconnected.com/javascript-refactoring-tips-reducing-function-complexity-22f4ad3f86cc)

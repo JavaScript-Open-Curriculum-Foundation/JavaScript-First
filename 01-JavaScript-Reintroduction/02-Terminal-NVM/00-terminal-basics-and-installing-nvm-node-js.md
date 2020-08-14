@@ -2,7 +2,7 @@
 
 In this article, you will learn the basics of terminal commands then we’ll go over installing git & NVM, and finally installing node and creating a test.js file.
 
-This content is part of an ongoing educational series and based off content originally taught to high school coding students to teach them full stack JavaScript in a semester. It is now being turned into an [open source book](https://github.com/HansUXdev/OSS-Books) and therefore is considered a "living article" subject to change, new articles are published on github first, then on [medium.com](https://medium.com/@HansOnConsult).
+This content is part of an ongoing educational series and based off content originally taught to high school coding students to teach them full stack JavaScript in a semester. It is now being turned into an [open source book](https://github.com/HansUXdev/OSS-Books) and therefore is considered a "living article" subject to change, new articles are published on github first, then on [Medium.com](https://medium.com/@HansOnConsult).
 
 If you have question, want to contribute or just wanna chat about the content, leave a comment!
 If you have a find a bug, typo, DM me on twitter @HansOnConsult.

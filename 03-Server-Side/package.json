@@ -1,0 +1,14 @@
+{
+  "name": "JavaScript-First",
+  "version": "1.0.0",
+  "description": "By Brett \"Hans\" McMurdy",
+  "main": "index.js",
+  "scripts": {
+    "node-docs":"documentation build ./02-node-server/*.js -f md -o node.md ",
+    "express-docs":"documentation build ./03-Express/*.js -f md -o express.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
