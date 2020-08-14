@@ -1,5 +1,5 @@
 
-<p align="center"><a href="https://github.com/users/HansUXdev/sponsorship"><img src="./logo.drawio.svg" alt="JavaScript Logo" height="300em"/></a></p>
+<p align="center"><a href="https://github.com/users/HansUXdev/sponsorship"><img src="./logo.svg" alt="JavaScript Logo" height="300em"/></a></p>
 <h1 align="center"> JavaScript First</h1>
 <p align="center">In this book, you'll learn how to code with JavaScript using the node.js runtime environment rather than a browser and by the end, you will build a server and a website using JavaScript.
 </p>
