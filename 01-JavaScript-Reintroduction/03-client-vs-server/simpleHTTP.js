@@ -1,21 +1,13 @@
-/**
- * @description Simple HTTP Server
-*/
 
-const http = require('http')
-const fs = require('fs');
+let http = require('http')
 const PORT = 7000;
 
-/**
- * 
-*/
-const html = (header,body,footer) => {
+const HtmlTemplateString = (header,body,footer) => {
   return `<!DOCTYPE html>
   <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     ${header}
   </head>
   <body>
@@ -24,26 +16,19 @@ const html = (header,body,footer) => {
   </body>
   </html>`;
 }
+let page1 =HtmlTemplateString(`<title>Hello</title>`,`<h1>Hello World END</h1>`,` `)
 
 http.createServer(
-  (req,res)=>{
-    res.writeHead(200, {
-      'Content-Type': 'text/html',
-      'Content-Length': html.length,
-      'Expires': new Date().toUTCString()
-    })
-    res.end(
-      html(
-        `
-          <link rel="stylesheet" href="/public/style.css">
-
-          <style>
-          h1{ color: red; }
-          </style>
-        `,
-        `<h1>HELLO</H1>`,
-        `<script> alert('hi') </script>`
-      ) 
-    );
+  (request,res)=>{
+    if (request.url == '/') {
+      res.writeHead(200, {
+        'Content-Type': 'text/html',
+        'Content-Length': page1.length,
+        'Expires': new Date().toUTCString()
+      })
+      res.end(page1);
+    }
   }
 ).listen(PORT);
+
+
