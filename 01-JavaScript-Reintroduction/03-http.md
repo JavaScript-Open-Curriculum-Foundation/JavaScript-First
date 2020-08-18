@@ -1,6 +1,6 @@
 ---
 title: "Primitive Data Types"
-logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/884d95cce59c213f6bb2af7e6d54977b7e06b048/logo.drawio.svg"
+logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg"
 theme : "night"
 transition: "slide"
 # highlightTheme: "monokai"
@@ -14,6 +14,40 @@ enableMenu: false
 enableChalkboard: false
 # enableTitleFooter: false
 ---
+
+<style>
+#logo { 
+  position: initial !important;
+  left: 0!important; 
+  top: 0%!important; 
+  text-align: center;
+  padding-top:1em;
+
+}
+#logo > img {height: 10em; max-height: none;}
+
+.slides{
+}
+
+.slides > section.present{
+top: -20%!important;
+
+}
+
+/* #logo {
+    position: inherit!important;
+    top: 0!important;
+    left: 0!important;
+    text-align: center;
+}
+
+body > div.reveal.slide.center.has-horizontal-slides.ready > div.slides > section.present{
+  top:0!important;
+} */
+.p1{padding:1em; border:none}
+</style>
+
+
 
 ### When does node become a server?
 
@@ -38,7 +72,7 @@ HyperText Transfer Protocol
 
 ---
 
-### Send HTML
+### Sending HTML with HTTP
 
 ```javascript
 const http = require('http')
@@ -167,9 +201,7 @@ This is a BitInt. {.fragment .current-only data-code-focus=7-7}
 
 ---
 
-### Check it out online
+### Check it the full book
 
 By Hans McMurdy
-
-[![](https://raw.githubusercontent.com/HansUXdev/JavaScript-First/884d95cce59c213f6bb2af7e6d54977b7e06b048/logo.drawio.svg)]()
 
