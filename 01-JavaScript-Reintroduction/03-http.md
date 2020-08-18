@@ -16,8 +16,8 @@ enableChalkboard: false
 ---
 
 <style>
-/* Remove the line */
-.line.focus{background:none;font-size: xx-large;}
+/* Remove the background color and make mongo commands more visible by adding color */
+.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
 
 /* #logo { 
   position: initial !important;
@@ -52,19 +52,20 @@ body > div.reveal.slide.center.has-horizontal-slides.ready > div.slides > sectio
 
 
 
-### When does node become a server?
-
-Simplest explaination is when it is installed on a server. Another way to look at it is whenever we use a protocol like HTTP to between a client and a server.
-
----
-
 ### What is HTTP?
 
 HyperText Transfer Protocol
+
 * Used to send text-based files such as HTML, CSS, etc.
 * Read about it on [wiki](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
 
 ---
+
+### Exercise 1: Your first HTML file...
+
+Inside `0-student_files/index.html` type the following HTML.
+
+--
 
 ### What is HTML?
 * Stands for Hyper Text **Markup Language**
@@ -138,15 +139,116 @@ Congrats! 🎉🎉🎉🎉 You should now know *enough* HTML to get by with the 
 
 
 ### How HTTP Protocol works
+The communication protocol between clients and servers.
+
+Read the official [MDN docs about it](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) {.fragment }
+
+<p align="center">
+  <img src="./03-client-vs-server/http-01.drawio.svg" height="300px" alt="HTTP Protocol"/>
+</p>
+
+:::block
+**Browser** makes a ...{.fragment }
+
+**Request** to the ... { .fragment }
+
+{style=width:50%;float:left; height:50%}
+:::
+
+:::block
+**Server** which then sends a ...{ .fragment }
+
+**Response** ... back to the client{ .fragment }
+
+{style=width:50%;float:right; height:50%}
+:::
 
 
-[![](03-client-vs-server/clientVSserver.png)]()
+--
+
+When we hit enter on a URL ![](./03-client-vs-server/URL.png) .. {.fragment}
+
+<p align="center">
+  <img src="./03-client-vs-server/http-02.drawio.svg" height="300px" alt="HTTP Protocol"/>
+</p>
+
+
+The client (browser) makes an HTTP **request** for the website's resources, such as HTML, CSS, JavaScript, images, etc... {.fragment}
+
+
+
+--
+
+### Server Response
+
+<p align="center">
+  <img src="./03-client-vs-server/http-03.drawio.svg" height="400px" alt="HTTP Protocol"/>
+</p>
+
+
+This where the server sends a **file** to the client {.fragment }
+
+
+
+<!-- [![](03-client-vs-server/clientVSserver.png)]() {style="height=1em"} -->
 
 <!-- [![](https://raw.githubusercontent.com/HansUXdev/JavaScript-First/884d95cce59c213f6bb2af7e6d54977b7e06b048/01-JavaScript-Reintroduction/03-client-vs-server/clientVSserver.drawio.svg)]() -->
 
+--
+
+### HTTP Status Codes with CATS..
+
+Credit to [http.cat](https://http.cat/).
+
+:::block
+
+<p align="center">
+  <img src="./03-client-vs-server/HTTPcats.gif" height="400px" alt="HTTP Protocol"/>
+</p>
+
+{style=width:60%;float:left;}
+:::
+
+:::block
+**1xx** codes are informational ...{ .fragment }
+
+**2xx** ... sucesses ! 🎉 { .fragment }
+
+**3xx** ... redirection... { .fragment }
+
+**4xx** ... client error...{ .fragment }
+
+**5xx** ... server error...{ .fragment }
+
+{style=width:40%;float:right;}
+:::
+
 ---
 
-### Sending HTML with HTTP
+### Node.js is ...
+
+NOT server! {.fragment .current-only }
+
+It is JavaScript RUNTIME Environment! {.fragment .current-only }
+
+It has an HTTP method as part of it's core API that allows it to be used on servers such as... {.fragment}
+* Apache {.fragment}
+* NGIX {.fragment}
+* etc {.fragment}
+
+---
+
+### Exercise 2: 
+#### Sending HTML with HTTP
+
+Step 1: Create a file called `simpleHTTP.js` { .fragment .current-only}
+
+Now, we'll use node.js's built-in API [http method](https://nodejs.org/api/http.html) to handle the requests and the response data. { .fragment .current-only}
+
+Step 1: Type the following code into `simpleHTTP.js` { .fragment .current-only}
+
+<!-- TEACHER SHOULD:  PROMPT The Readers/Students to type this out -->
+--
 
 ```javascript
 const http = require('http')
@@ -184,7 +286,8 @@ Inside the **callback**, define the correct **HTTP header** with the correct **c
 
 ---
 
-### Exercise 2: Dynamic Sites without Expess.js
+### Exercise 3: 
+#### Dynamic Sites without Expess.js
 * Believe it or not, you don't need EJS in 2020... 
 * You may also not even need react... 😲
 
@@ -289,7 +392,44 @@ let page1 =HtmlTemplateString(/* Same Code from above */)
 
 ---
 
-### Check it the full book
+### Thank You for reading...
 
-By Hans McMurdy
+If you liked this you can always read more on github by clicking the image below...
 
+<p align="center">
+  <a href="https://github.com/HansUXdev/JavaScript-First">
+    <img src="https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg" height="300px" alt="HTTP Protocol"/>
+  </a>
+</p>
+
+You can view more content here:
+
+<a href="https://medium.com/@hansOnConsult" class="MEDIUM">
+   <img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />
+</a>
+<a href="https://dev.to/hansuxdev" class="DEV TO">
+   <img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" />
+</a>
+<a href="https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about" class="YOUTUBE">
+   <img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" />
+</a>
+
+<a href="https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about" class="Twitch">
+   <img src="https://img.shields.io/twitch/status/hansoncoding?style=for-the-badge" />
+</a>
+
+
+
+--
+
+### Check it the full book online
+
+* If you liked this content, consider giving it a star on github <a class="github-button" href="https://github.com/HansUXdev/JavaScript-First" data-icon="octicon-star" data-size="large" aria-label="Star HansUXdev/JavaScript-First on GitHub">Star</a>
+
+
+* Otherwise consider become a github sponsor 
+<a class="github-button" href="https://github.com/sponsors/HansUXdev" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @HansUXdev on GitHub">Sponsor</a>
+
+
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>

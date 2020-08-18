@@ -1,4 +1,3 @@
-
 let http = require('http')
 const PORT = 7000;
 
@@ -16,7 +15,10 @@ const HtmlTemplateString = (header,body,footer) => {
   </body>
   </html>`;
 }
-let page1 =HtmlTemplateString(`<title>Hello</title>`,`<h1>Hello World END</h1>`,` `)
+let page1 =HtmlTemplateString(
+  `<title>Hello</title>`,
+  `<h1>Hello World END</h1>`,
+  `<footer> By Hans </footer>`)
 
 http.createServer(
   (request,res)=>{
@@ -27,6 +29,9 @@ http.createServer(
         'Expires': new Date().toUTCString()
       })
       res.end(page1);
+    }
+    else {
+      return response.end('Invalid request');
     }
   }
 ).listen(PORT);
