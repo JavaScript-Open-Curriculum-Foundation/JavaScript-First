@@ -3,7 +3,7 @@ title: "HTTP with Node"
 logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg"
 theme : "night"
 transition: "slide"
-# highlightTheme: "monokai"
+highlightTheme: "monokai"
 slideNumber: true
 loop: true
 # autoSlide: 5000 
@@ -19,7 +19,7 @@ enableChalkboard: false
 /* Remove the background color and make mongo commands more visible by adding color */
 .line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
 
-/* #logo { 
+#logo { 
   position: initial !important;
   left: 0!important; 
   top: 0%!important; 
@@ -35,7 +35,7 @@ enableChalkboard: false
 .slides > section.present{
 top: -20%!important;
 
-} */
+}
 
 /* #logo {
     position: inherit!important;
@@ -58,6 +58,89 @@ HyperText Transfer Protocol
 
 * Used to send text-based files such as HTML, CSS, etc.
 * Read about it on [wiki](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
+
+--
+
+### How HTTP Protocol works
+The communication protocol between clients and servers.
+
+Read the official [MDN docs about it](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) {.fragment }
+
+<p align="center">
+  <img src="./imgs/http-01.drawio.svg" height="300px" alt="HTTP Protocol"/>
+</p>
+
+:::block
+**Browser** makes a ...{.fragment }
+
+**Request** to the ... { .fragment }
+
+{style=width:50%;float:left; height:50%}
+:::
+
+:::block
+**Server** which then sends a ...{ .fragment }
+
+**Response** ... back to the client{ .fragment }
+
+{style=width:50%;float:right; height:50%}
+:::
+
+
+--
+
+When we hit enter on a URL ![](./imgs/URL.png) .. {.fragment}
+
+<p align="center">
+  <img src="./03-client-vs-server/http-02.drawio.svg" height="300px" alt="HTTP Protocol"/>
+</p>
+
+
+The client (browser) makes an HTTP **request** for the website's resources, such as HTML, CSS, JavaScript, images, etc... {.fragment}
+
+
+
+--
+
+### Server Response
+
+<p align="center">
+  <img src="./03-client-vs-server/http-03.drawio.svg" height="400px" alt="HTTP Protocol"/>
+</p>
+
+
+This where the server sends a **file** to the client {.fragment }
+
+--
+
+### HTTP Status Codes with CATS..
+
+Credit to [http.cat](https://http.cat/).
+
+:::block
+
+<p align="center">
+  <img src="./03-client-vs-server/HTTPcats.gif" height="400px" alt="HTTP Protocol"/>
+</p>
+
+{style=width:60%;float:left;}
+:::
+
+:::block
+**1xx** codes are informational ...{ .fragment }
+
+**2xx** ... sucesses ! 🎉 { .fragment }
+
+**3xx** ... redirection... { .fragment }
+
+**4xx** ... client error...{ .fragment }
+
+**5xx** ... server error...{ .fragment }
+
+{style=width:40%;float:right;}
+:::
+
+
 
 ---
 
@@ -86,7 +169,7 @@ Inside `0-student_files/index.html` type the following HTML.
   <!-- <link rel="icon" type="image/png" href="images/favicons/favicon.png"> -->
   </head>
   <body>
-    <h1>Hello World</h1>
+    <h1 style="text-align:center">Hello World</h1>
     <p>
       Here is a hyperlink to
        <a href="http://google.com">
@@ -133,95 +216,6 @@ The **Text** goes between the tags: `<a>` text `</a>` . {.fragment .current-only
 This goes back to **Hyper Text** Transfer Protocol (**HTTP**) {.fragment .current-only data-code-focus=17-17}
 
 Congrats! 🎉🎉🎉🎉 You should now know *enough* HTML to get by with the rest of this lesson... {.fragment .current-only}
-
----
-
-
-
-### How HTTP Protocol works
-The communication protocol between clients and servers.
-
-Read the official [MDN docs about it](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) {.fragment }
-
-<p align="center">
-  <img src="./03-client-vs-server/http-01.drawio.svg" height="300px" alt="HTTP Protocol"/>
-</p>
-
-:::block
-**Browser** makes a ...{.fragment }
-
-**Request** to the ... { .fragment }
-
-{style=width:50%;float:left; height:50%}
-:::
-
-:::block
-**Server** which then sends a ...{ .fragment }
-
-**Response** ... back to the client{ .fragment }
-
-{style=width:50%;float:right; height:50%}
-:::
-
-
---
-
-When we hit enter on a URL ![](./03-client-vs-server/URL.png) .. {.fragment}
-
-<p align="center">
-  <img src="./03-client-vs-server/http-02.drawio.svg" height="300px" alt="HTTP Protocol"/>
-</p>
-
-
-The client (browser) makes an HTTP **request** for the website's resources, such as HTML, CSS, JavaScript, images, etc... {.fragment}
-
-
-
---
-
-### Server Response
-
-<p align="center">
-  <img src="./03-client-vs-server/http-03.drawio.svg" height="400px" alt="HTTP Protocol"/>
-</p>
-
-
-This where the server sends a **file** to the client {.fragment }
-
-
-
-<!-- [![](03-client-vs-server/clientVSserver.png)]() {style="height=1em"} -->
-
-<!-- [![](https://raw.githubusercontent.com/HansUXdev/JavaScript-First/884d95cce59c213f6bb2af7e6d54977b7e06b048/01-JavaScript-Reintroduction/03-client-vs-server/clientVSserver.drawio.svg)]() -->
-
---
-
-### HTTP Status Codes with CATS..
-
-Credit to [http.cat](https://http.cat/).
-
-:::block
-
-<p align="center">
-  <img src="./03-client-vs-server/HTTPcats.gif" height="400px" alt="HTTP Protocol"/>
-</p>
-
-{style=width:60%;float:left;}
-:::
-
-:::block
-**1xx** codes are informational ...{ .fragment }
-
-**2xx** ... sucesses ! 🎉 { .fragment }
-
-**3xx** ... redirection... { .fragment }
-
-**4xx** ... client error...{ .fragment }
-
-**5xx** ... server error...{ .fragment }
-
-{style=width:40%;float:right;}
-:::
 
 ---
 

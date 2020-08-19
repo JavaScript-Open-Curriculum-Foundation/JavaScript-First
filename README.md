@@ -23,11 +23,27 @@ GitPod is used to provide my readers with a zero-config developer environment wh
 
 # Table of Contents
 
-<!-- * [Foreword](foreword.md) (by [Hans McMurdy]()
-* [Preface](./preface.md) -->
-* [Chapter 1: History of JavaScript](./01-History-of-JS/A-brief-history.md)
-* [Chapter 2: Learning Terminal, NVM & Node.js](./02-Introduction-Node-WIth-NVM/1-terminal-basics-and-installing-nvm-node-js.md)
-* [Chapter 3: JavaScript Datatypes & fundementals](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78)
+<!-- * [Foreword](foreword.md) (by [Hans McMurdy]() -->
+* [Preface: What's wrong with how coding is taught?]()
+  - What's wrong with the college system?
+  - What's wrong with the Bootcamps?
+  - What's wrong with the Certifications?
+  - How this book attempts to solve these issues.
+* **Chapter 1: Reteaching JavaScript & Web Development**
+  - [History of JavaScript](./01-JavaScript-Reintroduction/01-History-of-JS/readme.md)
+    - [Medium](https://medium.com/javascript-in-plain-english/a-brief-history-of-javascript-9289a4d344d2)
+  - [Learning Terminal, NVM & Node.js](01-JavaScript-Reintroduction/02-Terminal-NVM/00-terminal-basics-and-installing-nvm-node-js.md)
+  - [logging datatypes]()
+  - [Explaining HTML with Node's HTTP method](01-JavaScript-Reintroduction/03-client-vs-server/03-http.md)
+* **Chapter 2: Dealing with data types**
+  - [What do you really know about Variables, Data Types and Immutability in JavaScript?](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78)
+  - [Primitive Types](01-JavaScript-Reintroduction/01-primitiveTypes.md)
+  - [Primitive Types](01-JavaScript-Reintroduction/01-primitiveTypes.md)
+* **Future Chapters?**
+  - Functional Programming
+  - React
+  - MongoDB
+
 
 ## For more content:
 This book is still in **early access** and is designed to provide an **interactive experiance** through [GitPod](http://gitpod.io/), [Twitch ![Twitch Status](https://img.shields.io/twitch/status/hansoncoding?label=)](https://twitch.tv/hansoncoding), [codetogether](https://www.codetogether.com/), [gitduck](https://gitduck.com/) and other means of activities that facilitate remote learning.
