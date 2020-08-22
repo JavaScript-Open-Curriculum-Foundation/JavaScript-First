@@ -4,6 +4,7 @@ This readme will contain information on how the book's final formate should be s
 # Overview
 .
 ├── readme.md
+├── **00-DRAFT-Content** (Subject to change)
 ├── 0-documentation
 │   ├── about this repo
 ├── 0-student_files

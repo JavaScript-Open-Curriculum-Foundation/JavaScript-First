@@ -29,17 +29,21 @@ GitPod is used to provide my readers with a zero-config developer environment wh
   - What's wrong with the Bootcamps?
   - What's wrong with the Certifications?
   - How this book attempts to solve these issues.
-* **Chapter 1: Reteaching JavaScript & Web Development**
-  - [History of JavaScript](./01-JavaScript-Reintroduction/01-History-of-JS/readme.md)
-    - [Medium](https://medium.com/javascript-in-plain-english/a-brief-history-of-javascript-9289a4d344d2)
-  - [Learning Terminal, NVM & Node.js](01-JavaScript-Reintroduction/02-Terminal-NVM/00-terminal-basics-and-installing-nvm-node-js.md)
-  - [logging datatypes]()
-  - [Explaining HTML with Node's HTTP method](01-JavaScript-Reintroduction/03-client-vs-server/03-http.md)
-* **Chapter 2: Dealing with data types**
-  - [What do you really know about Variables, Data Types and Immutability in JavaScript?](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78)
-  - [Primitive Types](01-JavaScript-Reintroduction/01-primitiveTypes.md)
-  - [Primitive Types](01-JavaScript-Reintroduction/01-primitiveTypes.md)
+  
+1. **Chapter 1: Reteaching JavaScript & Web Development**
+     - [History of JavaScript](./01-JavaScript-Reintroduction/01-History-of-JS/readme.md)
+     - [Medium](https://medium.com/javascript-in-plain-english/a-brief-history-of-javascript-9289a4d344d2)
+     - [Learning Terminal, NVM & Node.js](01-JavaScript-Reintroduction/02-Terminal-NVM/00-terminal-basics-and-installing-nvm-node-js.md)
+     - [logging datatypes]()
+2. **Chapter 2: Introduction to Web Development with HTTP**
+     - [Explaining HTML with Node's HTTP method]()
+   - 
+
 * **Future Chapters?**
+  - * **Chapter x: Dealing with data types**
+    - [What do you really know about Variables, Data Types and Immutability in JavaScript?](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78)
+    - [Primitive Types](01-JavaScript-Reintroduction/01-primitiveTypes.md)
+    - [Primitive Types](01-JavaScript-Reintroduction/01-primitiveTypes.md)
   - Functional Programming
   - React
   - MongoDB
