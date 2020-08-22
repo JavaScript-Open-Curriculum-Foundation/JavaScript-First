@@ -16,3 +16,6 @@ Students should be able to:
 1. Explain ES Lint and why it is useful
 2. Demonstrate how to configure ESlint to standardize your coding practices
 3. Identify problems that ES Lint solves
+
+
+

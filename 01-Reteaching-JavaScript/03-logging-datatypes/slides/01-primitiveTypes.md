@@ -39,6 +39,11 @@ This is a null. {.fragment .current-only data-code-focus=2-2}
 
 This is a String. {.fragment .current-only data-code-focus=3-3}
 
+Strings can be "some text", 'some text'.{.fragment .current-only data-code-focus=3-3}
+
+Strings can also be [template Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) \` some text\`.{.fragment .current-only data-code-focus=3-3}
+
+
 This is a Number. {.fragment .current-only data-code-focus=4-4}
 
 This is a Boolean. {.fragment .current-only data-code-focus=5-5}
