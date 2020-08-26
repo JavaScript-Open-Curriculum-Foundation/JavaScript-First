@@ -27,15 +27,15 @@ GitPod is used to provide my readers with a zero-config developer environment wh
 * [Contributors]()
 
 * [Preface]()
+   - What's wrong with how coding is taught?
    - What this book covers.
-   - How to use the GitPod Version.
+   - How to use the student files & GitPod 
    - Sections
      - Gettting ready
      - How to do it
      - lets test it...
      - how it works
      - there's more..
-   - What's wrong with how coding is taught?
   <!-- - What's wrong with the college system?
   - What's wrong with the Bootcamps?
   - What's wrong with the Certifications?
@@ -48,7 +48,7 @@ GitPod is used to provide my readers with a zero-config developer environment wh
      - [logging datatypes]()
 2. **Chapter 2: Introduction to Web Development with HTTP**
      - [Explaining HTML with Node's HTTP method]()
-   - 
+     - 
 
 * **Future Chapters?**
   - * **Chapter x: Dealing with data types**
