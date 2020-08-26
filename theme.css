@@ -1,0 +1,26 @@
+.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
+.reveal ul{ margin:0 !important;}
+.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
+
+.flex-slide{display:flex}
+.column {display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 4;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.present {}
+.flex-slide p.fragment{ font-size: 0.6em; }
+
+h1, h2, h3, h4, h5, h6, p {color:white;}
+
+/* Fix Issue of hidden content still taking up space */
+.fragment.fade-in-then-out:not(.current-fragment) {
+  display:none;
+}
