@@ -76,17 +76,18 @@ GitPod is used to provide my readers with a zero-config developer environment wh
   
   [Types of Functions]() 
 
-  [logging datatypes]() 
+  [logging datatypes](01-Reteaching-JavaScript/05-logging-datatype/export/index.html) 
 
 
 ---
 
 ##  Chapter 2: Introduction to Web Development with HTTP
+  In progress...
+
   - Learn JavaScript before HTML with node's HTTP API
   - Hosting your node.js server with Glitch.io
-  - 
   - Build JSON API with Express
-  - S
+  
 
 
 ---
