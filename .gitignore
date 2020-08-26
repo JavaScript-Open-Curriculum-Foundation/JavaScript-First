@@ -1,3 +1,6 @@
+# ignore export/ in master only
+export/
+
 # Ignore
 00-Functional/
 00-Design-Patterns/

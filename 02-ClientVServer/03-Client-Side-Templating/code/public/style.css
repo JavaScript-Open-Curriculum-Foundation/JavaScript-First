@@ -1,0 +1,70 @@
+body {
+  margin: 1em;
+}
+
+.w3-top {
+  top: 0;
+  left: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 5px;
+  background-color: #fff;
+  color: #444;
+  /* Define the grid areas*/
+  /* Define the layouts within the wrapper */
+  /**/
+  /* Medium */
+  /* Large */
+  /* end layouts */
+}
+.wrapper .sidebar {
+  grid-area: sidebar;
+}
+.wrapper .sidebar2 {
+  grid-area: sidebar2;
+}
+.wrapper .content {
+  grid-area: content;
+}
+.wrapper .hero {
+  grid-area: hero;
+  height: auto;
+}
+.wrapper .header {
+  grid-area: header;
+}
+.wrapper .footer {
+  grid-area: footer;
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .wrapper {
+    grid-template-columns: 0px  100%  0px;
+    grid-template-areas: "....... header ......." "....... hero ......." "....... content ......." "....... sidebar ......." "....... sidebar2 ......." "....... footer .......";
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .wrapper {
+    grid-template-columns: auto  65%  auto;
+    grid-template-areas: "header   header" "hero     hero" "sidebar  content" "sidebar2 sidebar2" "footer   footer";
+  }
+}
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    grid-template-columns: auto  auto  auto;
+    grid-template-areas: "header header  header header" "hero hero hero hero" "content content content content" "sidebar sidebar sidebar2 sidebar2" "footer footer  footer footer";
+  }
+  .wrapper .sidebar, .wrapper .sidebar2 {
+    min-width: 22rem;
+    width: calc(530px/2);
+    margin: 0 auto;
+  }
+}
+.wrapper .box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}

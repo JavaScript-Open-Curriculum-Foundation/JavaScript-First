@@ -13,7 +13,6 @@ This chapter, you will learn strong fundementals understanding of HTTP & HTML us
 Students should be able to:
 2. Distinguish between the client and the server.
 
-
 3. Describe what HTTP is and why it was created.
 4. Explain what HTML is and why it was created. 
 5. Identify HTML basic syntax and how to check it.
@@ -23,7 +22,8 @@ Students should be able to:
 <!-- 7. Compare and contrast 
 8. Write  -->
 
-
+# Projects
+1. Build a server with node.js, no frameworks
 
 
 
