@@ -1,4 +1,6 @@
 ---
+# This file is best viewed in vscode using vscode-reveal
+# https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal
 title: "HTTP with Node"
 logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg"
 theme : "night"
@@ -13,42 +15,15 @@ enableMenu: false
 # controls: true
 enableChalkboard: false
 # enableTitleFooter: false
-  autoSlideStoppable: true,
+autoSlideStoppable: true
 ---
 
 <style>
 /* Remove the background color and make mongo commands more visible by adding color */
 .line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
 
-#logo { 
-  position: initial !important;
-  left: 0!important; 
-  top: 0%!important; 
-  text-align: center;
-  padding-top:1em;
 
-}
-#logo > img {height: 10em; max-height: none;}
 
-.slides{
-}
-
-.slides > section.present{
-top: -20%!important;
-
-}
-
-/* #logo {
-    position: inherit!important;
-    top: 0!important;
-    left: 0!important;
-    text-align: center;
-}
-
-body > div.reveal.slide.center.has-horizontal-slides.ready > div.slides > section.present{
-  top:0!important;
-} */
-/* .p1{padding:1em; border:none} */
 </style>
 
 
@@ -90,27 +65,28 @@ Read the official [MDN docs about it](https://developer.mozilla.org/en-US/docs/W
 
 --
 
-When we hit enter on a URL ![](./imgs/URL.png) .. {.fragment}
+### Client Request
+
+When we hit enter on a URL ![](/02-HTTP/URL.png) .. {.fragment}
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/HansUXdev/JavaScript-First/4a53874240438a3fdb6550c406524974941f9f6b/01-Reteaching-JavaScript/04-client-vs-server/imgs/http-02.drawio.svg" height="300px" alt="HTTP Protocol"/>
 </p>
 
 
-The client (browser) makes an HTTP **request** for the website's resources, such as HTML, CSS, JavaScript, images, etc... {.fragment}
+The client (browser) makes an HTTP **request** to **GET** the website's resources, such as HTML, CSS, JavaScript, images, etc... {.fragment}
 
 
 
 --
 
 ### Server Response
-
+This where the server, **responds** to the request and sends them the resource they want to *get* such as a **text file** such as HTML, CSS, or even images. {.fragment }
 <p align="center">
   <img src="https://raw.githubusercontent.com/HansUXdev/JavaScript-First/4a53874240438a3fdb6550c406524974941f9f6b/01-Reteaching-JavaScript/04-client-vs-server/imgs/http-03.drawio.svg" height="400px" alt="HTTP Protocol"/>
 </p>
 
-
-This where the server sends a **file** to the client {.fragment }
+The **browser** then *reads* that file and presents it to the user according the specified **Content-Type**, such as text/html. {.fragment }
 
 --
 
@@ -142,6 +118,25 @@ Credit to [http.cat](https://http.cat/).
 :::
 
 
+
+--
+
+<!-- What level is their knowledge at?: remember, understand, apply, analyze, evaluate, create : -->
+<!-- Help: Explain HTTP Topic: Verbs -->
+<!-- Help them:  HTTP VERBS -->
+
+### HTTP VERBS 
+
+<!-- Prime them for the concept of CRUD  -->
+ 
+**GET** refers to *requests* made to *read* data. {.fragment }
+
+**POST** refers to *requests* made to *create* data on a server. {.fragment }
+<!-- made to submit data to server, resulting in change of state or side effects on server. -->
+
+**UPDATE** refers to *requests* made to *update* data. {.fragment }
+
+**DELETE** refers to *requests* made to *deletes* data. {.fragment }
 
 ---
 

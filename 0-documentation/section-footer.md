@@ -27,7 +27,6 @@ You can view more content here:
 
 
 
---
 
 ### Check it the full book online
 

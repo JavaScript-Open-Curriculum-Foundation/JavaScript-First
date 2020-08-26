@@ -57,6 +57,7 @@ This chapter should cover the following:
 
 ### What is Function?
 
+A block of reusable code.
 
 ---
 
@@ -72,30 +73,40 @@ This chapter should cover the following:
 ---
 
 
-### some concept 
+### Function Declaration
 
- ```javascript
- //some code
+What a function declaration looks like:
+```JavaScript
+function add(param1, param2){
+  return param1 + param2;
+};
+add(1, 2) //return a value of 3
+```
 
- ```
-Step:1 remember to use and apply bloom tax {.fragment .current-only data-code-focus=1-1} 
+Has the following Features:
 
-
-
----
-
-
-
-
+**Block Syntax**, with `{}` at the begining and the end of the function and usually followed by a `;` {.fragment .current-only data-code-focus=1-3}
 
 
+:::block
+* **Function** keyword
+* Name of function, `add`
+* Parameters `(param1, param2)`, which act as variables inside the functions definition.
+{.fragment .current-only data-code-focus=1-1}
+:::
+
+**Return** keyword, ends the function
+and the result is returned {.fragment .current-only data-code-focus=2-2}
 
 
+:::block
+* Calling the Function 
 
+* When the function is called, we pass values into the **arguements** `(1,2)` 
+{.fragment .current-only data-code-focus=4-4}
 
-
-
-
+* When the function is called, we pass values into the **arguements** `(1,2)` 
+{.fragment .current-only data-code-focus=1-2}
 
 
 ### Function Declaration 
@@ -114,14 +125,4 @@ This errors out **declarations** is **hoisted** in the browser but not in node  
 
 ---
 
-### Named Function 
 
- ```javascript
-const namedFunction = function (params) {
-    console.log("hello " + params);
-}
-namedFunction("hello");
-// console.log(window.namedFunction("hello")) //  hoisted in browser
-console.log(global.namedFunction("hello")) // not hoisted in node.js
- ```
-**Named Functions** are not does something. {.fragment .current-only data-code-focus=1-1}

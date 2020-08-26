@@ -24,11 +24,22 @@ GitPod is used to provide my readers with a zero-config developer environment wh
 # Table of Contents
 
 <!-- * [Foreword](foreword.md) (by [Hans McMurdy]() -->
-* [Preface: What's wrong with how coding is taught?]()
-  - What's wrong with the college system?
+* [Contributors]()
+
+* [Preface]()
+   - What this book covers.
+   - How to use the GitPod Version.
+   - Sections
+     - Gettting ready
+     - How to do it
+     - lets test it...
+     - how it works
+     - there's more..
+   - What's wrong with how coding is taught?
+  <!-- - What's wrong with the college system?
   - What's wrong with the Bootcamps?
   - What's wrong with the Certifications?
-  - How this book attempts to solve these issues.
+  - How this book attempts to solve these issues. -->
   
 1. **Chapter 1: Reteaching JavaScript & Web Development**
      - [History of JavaScript](./01-JavaScript-Reintroduction/01-History-of-JS/readme.md)
@@ -89,3 +100,11 @@ You can also contribute more significantly by becoming a direct sponsor please c
 
 # Supporting Awesome Developer Streams [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 Dive deep into the ocean of [awesome Streamer](https://github.com/andyli/awesome-developer-streams/tree/shields.io#developers-that-stream).
+
+
+<!-- # Content Creation Perspective
+
+Bootcamps  -->
+
+
+<!-- https://en.wikipedia.org/wiki/Bloom's_taxonomy -->
