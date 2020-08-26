@@ -22,7 +22,6 @@ Students should be able to:
 
 
 
-
 ## Resources:
 
 * Medium Articles:
