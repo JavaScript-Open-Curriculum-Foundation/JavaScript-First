@@ -1,0 +1,13 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "issue": "openssl req -x509 -newkey rsa:2048 -keyout keytmp.pem -out cert.pem -days 365",
+    "decrypt": "openssl rsa -in keytmp.pem -out key.pem"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
