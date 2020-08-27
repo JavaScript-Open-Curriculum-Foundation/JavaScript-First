@@ -18,26 +18,52 @@ enableChalkboard: false
 autoSlideStoppable: true
 ---
 
-<style>
-.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
-.reveal ul{ margin:0 !important;}
-.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
 
-.flex-slide{display:flex}
-.column {display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 4;
-}
+<link rel="stylesheet" href="https://hansmcmurdy.com/JavaScript-First/theme.css"></link>
 
-.double-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-.present {}
-.flex-slide p.fragment{ font-size: 0.6em; }
+## Project Structure
+```markdown
+.
+├── /code/
+│   ├── package.json
+│   ├── index.js
+│   ├── /public/
+│   │   └── index.html
+│   │   └── resume.js
+│   │   └── templates.js
+│   │   └── index.css
+└── readme.md
+```
 
-h1, h2, h3, h4, h5, h6, p {color:white;}
-</style>
+root directory  {.fragment .current-only data-code-focus=1-1 }
+
+`/code` is where all the example code for the finished project is {.fragment .current-only data-code-focus=2-2 }
+
+`/code/package.json` a file created with `npm init` and used to {.fragment .current-only data-code-focus=3-3 }
+
+`/code/index.js` is where our **server-side** javascript is. This is where we tell the server which files to provide the {.fragment .current-only data-code-focus=4-4 }
+
+`/code/public` is a directory where our **client-side** code goes.  {.fragment .current-only data-code-focus=5-5 }
+
+`/code/public` is a directory where our **client-side** code goes.  {.fragment .current-only data-code-focus=6-6 }
+
+---
+
+## Student Project
+```markdown
+.
+├── /0-student_files/
+│   ├── package.json
+│   ├── index.js
+│   ├── /public/
+│   │   └── index.html
+│   │   └── resume.js
+│   │   └── templates.js
+│   │   └── index.css
+└── readme.md
+```
+
+root directory  {.fragment .current-only data-code-focus=1-1 }
+
+`/code` is where all the example code for the finished project is {.fragment .current-only data-code-focus=2-2 }
+
