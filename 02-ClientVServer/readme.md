@@ -28,13 +28,15 @@ Students should be able to:
 
 
 ## Resources:
+* [Async Gen](https://www.smashingmagazine.com/2016/08/getting-started-koa-2-async-functions/)
+* [async gen 2](https://www.sitepoint.com/asynchronous-apis-using-fetch-api-es6-generators/)
 
 * Medium Articles:
    1. Build your own express.js
       - [Part 1](https://devtools.tech/build-your-own-express-js-part-one/)
       - [Part 2](https://devtools.tech/build-your-own-express-js-part-two/?ref=code-devtools-tec)
 
-* Bleeding Edge 
+* **Bleeding Edge**
   - [Streaming requests with fetch - HTTP 203](https://www.youtube.com/watch?v=G9PpImUEeUA)
 
 

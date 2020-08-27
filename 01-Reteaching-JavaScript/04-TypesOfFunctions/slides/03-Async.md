@@ -1,5 +1,5 @@
 ---
-title: "Functions"
+title: "Async Functions"
 logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg"
 theme : "night"
 transition: "slide"
