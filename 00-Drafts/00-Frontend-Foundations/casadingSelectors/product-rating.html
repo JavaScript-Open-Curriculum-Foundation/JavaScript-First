@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- ◊ -->
+  <title>CSS only Star Rating</title>
+  <style>
+      body{
+        margin: 50px 10px;
+      }
+      .star-rating {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        /* reverse the order to allow hover   */
+        flex-direction: row-reverse;
+      }
+
+      /* Change the color on the selected  */
+      .star-rating .star:hover{
+        background-color: red;
+      }
+      /* Change the selected star and all siblings "before it" */
+      .star-rating .star:hover ~ .star{
+        background-color: red;
+      }
+
+      .star {
+        cursor: pointer;
+        width: 2em;
+        height: 2em;
+        background-color: grey;
+        clip-path: polygon(
+          50% 0%,
+          63% 38%,
+          100% 38%,
+          69% 59%,
+          82% 100%,
+          50% 75%,
+          18% 100%,
+          31% 59%,
+          0% 38%,
+          37% 38%
+        );
+      }
+  </style>
+</head>
+<body>
+  <div class="star-rating">
+    <div class="star">1</div>
+    <div class="star">2</div>
+    <div class="star">3</div>
+    <div class="star">4</div>
+    <div class="star">5</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "react-introduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node express.js && parcel ./components/index.js entry.js -d components/output",
+    "parcel": "parcel index.html",
+    "prod": "node express.js && parcel ./components/index.js entry.js -d components/output",
+    "doc-install":"npm install -g documentation",
+    "docs": "documentation build ./components/*.js -f md -o tutorial.md ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

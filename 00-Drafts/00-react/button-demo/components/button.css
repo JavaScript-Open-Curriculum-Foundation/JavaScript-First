@@ -1,0 +1,45 @@
+  .btnActiveStyle{
+    display: "flex";
+    flex-direction: "row";
+    align-items: "center";
+    background-color: "#e3e3e3";
+    color: "#5f5f5f";
+    font-family: "inherit";
+    font-size: "0.9rem";
+    text-align: "center";
+    justify-content: "center";
+    letter-spacing: "0.007px";
+    line-height: "normal";
+    text-decoration: "none";
+    height: "36px";
+    min-width: "71.96px";
+    width: "120.5px";
+    padding: "10px 16px 10px 16px";
+    border: "1px solid transparent";
+    border-radius: "0";
+    text-transform: "uppercase";
+  }
+  .defaultStyle{
+    display: "flex";
+    flex-direction: "row";
+    align-items: "center";
+    background-color: "#CC0000";
+    color: "#ffffff";
+    font-family: "inherit";
+    font-size: "0.9rem";
+    justify-content: "center";
+    letter-spacing: "0.007px";
+    line-height: "normal";
+    height: "36px";
+    min-width: "71.96px";
+    width: "120.5px";
+    border: "1px solid transparent";
+    border-radius: "0";
+    padding: "10px 16px 10px 16px";
+    text-transform: "uppercase";
+  }
+  .subscribedBTNgroup{
+    display: "flex";
+    flex-direction: "row";
+    align-items: "center";
+  }

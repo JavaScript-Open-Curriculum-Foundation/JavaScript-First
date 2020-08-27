@@ -1,0 +1,238 @@
+= REACTing to Clickbait
+
+== The problem:
+I need to film my first coding tutorial...
+
+== Beginner Friendly Content
+I want to my channel to be:
+
+* inviting to people with zero coding experiance.
+
+* while also covering more advanced content...
+
+== My advice...
+If you have zero experiance:
+
+* watch this video for entertainment...
+* come back to it when you know:
+- JavaScript, 
+- HTML,
+- CSS
+
+
+
+== What will I be building today?
+Build a simple react components that uses state with a **boolean** value to toggle an icon...
+
+image::./assets/SubscribeButton.gif[that sounds complicated...]
+
+== Clickbait?
+More like satire.
+
+Which is why I'd like to introduce you to...
+
+**The Clickbait Executioner...**
+
+[.columns]
+== The Clickbait "Executioner"
+[.column]
+* This is Brad... 
+* Brad was my best man at my wedding.
+* He gets to taze me if I ever ask you to "subscribe to my channel"...
+
+[.column]
+image::./assets/TheClickbaitExecutioner.jpg[that sounds complicated...]
+
+== Out Tech stack
+
+* **Node.js** - A JavaScript **runtime** environment. 
+
+* **Parcel**- "zero" configuration web application bundler.
+
+* **React**- library for building user interfaces with JavaScript components.
+
+* **Visual Studio Code**- modern text-editor.
+
+== VS Code Extentions
+
+
+== Learning Objectives:
+1. Explain how 
+2. Use ParcelJS to build your react project
+
+
+== Step 1: Setup Process
+
+=== Installing
+1. `npm init -y` to create a new package.json
+2. `npm i -g parcel-bundler` this way we can use the cli
+3. `npm i react` to install react
+
+=== Create core files
+1. Open up our terminal
+2. `mkdir /components` 
+  * create a new package.json
+3. `touch index.html` 
+  * creates a new html files
+
+=== index.js ROOT APP
+This is our main react script.
+
+[source, JavaScript]
+----
+/* JavaScript module code here */
+import React from 'react';
+import ReactDOM from 'react-dom';
+// we'll import our component here
+
+ReactDOM.render(
+    <div style={bodyStyle}>
+        {/* Component will go here */}
+    </div>,
+    document.getElementById('root')
+);
+----
+
+
+
+[.columns]
+=== CSS as an Inline Object
+[.column]
+--
+* JavaScript Object Syntax
+* style=**{ }** instead of style=""
+--
+
+[.column]
+[source, JavaScript]
+----
+/* JavaScript module code here */
+// import etc from './etc'
+
+// Use JSS to Center Everything 
+const bodyStyle = {
+    "display":"grid",
+    "placeItems":"center",
+    "font":"900 24px/1.4, sans-serif",
+    "textAlign":"center",
+    "margin":"10em",
+}
+ReactDOM.render(
+    <div style={bodyStyle}>
+        // Component will go here
+    </div>,
+    document.getElementById('root')
+);
+----
+
+== Step 2: Inspecting YouTube
+
+
+[.columns]
+== Step 3: Creating the Button Component
+[.column]
+--
+* import react **once** per file
+--
+
+[.column]
+[source, JavaScript]
+----
+import React, { useState } from "react";
+import  './btn.css'
+----
+
+[.columns]
+
+=== Step 1: Importing CSS
+[.column]
+--
+* Sheri S. Tepper
+* style={ }
+* **Requires { }**
+--
+
+[.column]
+--
+something
+--
+
+[.columns]
+=== Step 2: Creating our button
+
+
+[.column]
+--
+* imports react
+* exports a named **Function Declaration** 
+* use fragments<>
+--
+
+[.column]
+[source, JavaScript]
+----
+// required extention - (Fullstack React/React Native snippets)
+// rcf then hit tab 
+import React from 'react';
+
+export default function SubscribeBTN() {
+  return (
+    <>
+    
+    </>
+  );
+}
+----
+
+=== <SubscribeBTN /> Specifications
+* if toggled, then do something
+
+[.columns]
+== Step 4: Creating Icon Bell
+[.column]
+* Use an SVG
+
+[.column]
+
+
+[.columns]
+
+=== `<IconBell />`
+[.column]
+[source, JavaScript]
+----
+// required extention - (Fullstack React/React Native snippets)
+// rafc then hit tab 
+import React from 'react';
+
+export default function IconBell() {
+  return (
+    <>
+    
+    </>
+  );
+}
+
+----
+
+[.column]
+--
+* imports react
+* exports a named **Function Declaration** 
+
+*  use fragments<>
+--
+
+
+
+== Conclusion
+If you liked this video, "hit" button. 
+
+Which ever one you want
+
+== Key learnings
+
+== Tips and advice
+
+== Final thoughts and next steps
+* Read a Book about React

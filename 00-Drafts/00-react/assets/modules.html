@@ -1,0 +1,49 @@
+<!-- 
+Originally, from React's official site:
+- https://reactjs.org/docs/getting-started.html
+- https://raw.githubusercontent.com/reactjs/reactjs.org/master/static/html/single-file-example.html
+- Read the code comments in the link to understand why this isn't suited for production.
+--> 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel" data-type="module">
+      /* JavaScript module code here */
+      import React from 'react';
+      import ReactDOM from 'react-dom';
+      import SubscribeBTN from './components/SubscribeBTN';
+
+      // Use JSS to Center Everything 
+      const bodyStyle = {
+          "display":"grid",
+          "placeItems":"center",
+          "font":"900 24px/1.4, sans-serif",
+          "textAlign":"center",
+          "margin":"0",
+      }
+      ReactDOM.render(
+        
+          <div style={bodyStyle}>
+          hello
+             
+          </div>,
+          document.getElementById('root')
+      );
+    </script>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules -->
+    <!-- <script type="text/babel" data-presets="env,stage-3">
+      import SubscribeBTN from './components/SubscribeBTN';
+    </script> -->
+
+  </body>
+</html>

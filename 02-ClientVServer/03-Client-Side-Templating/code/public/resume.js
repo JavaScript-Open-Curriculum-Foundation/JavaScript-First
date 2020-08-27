@@ -1,4 +1,4 @@
-const resume = {
+export const resume = {
   "basics": {
     "name": "John Doe",
     "label": "Programmer",

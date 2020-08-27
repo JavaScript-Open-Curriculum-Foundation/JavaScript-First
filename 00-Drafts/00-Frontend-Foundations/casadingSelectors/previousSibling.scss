@@ -1,0 +1,48 @@
+/*
+* Author: Hans McMurdy
+* Subject: SCSS Sibling Selector Mixins
+*/
+
+// SCSS MIXIN FOR previous-child hover effects 😃
+@mixin previousSiblingHover($parent, $child, $sibling) {
+  #{$parent} {
+    display: flex;
+    flex-direction: row-reverse;
+    #{$child}:hover ~ #{$sibling }{
+      @content;
+    }
+  }
+}
+
+@include previousSiblingHover(".star-rating", ".star", ".star") {
+  background-color: red;
+}
+// Compiles to the Following CSS:
+/*
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.star-rating .star:hover ~ .star {
+  background-color: red;
+}
+*/
+
+
+@mixin selectUntil($parent,$child,$youngestChild) {
+  #{$parent}{
+     #{$child}:not(:nth-child(n+#{$youngestChild})) {
+      @content;
+    } 
+  }
+}
+
+@include selectUntil(".star-rating", ".star", 3) {
+  background-color: black;
+}
+// Compiles to the Following CSS:
+/* 
+.star-rating .star:not(:nth-child(n+3)) {
+  background-color: black;
+}
+*/
