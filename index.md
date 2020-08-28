@@ -56,12 +56,17 @@ This book attempts to adopt a Career and Technical Education appoach.
 
 ---
 
+
 ### Academic Structure
 Every chapter and section is designed to meet some sort of state standard in the following categories:
 - [Web Page Development](https://www.azed.gov/cte/wpd/)
 - [Software and App Design](https://www.azed.gov/cte/sd/)
 
-Learning objectives are use [blooms tax](https://en.wikipedia.org/wiki/Bloom's_taxonomy).
+--
+
+#### Learning Structure
+Learning objectives are use [blooms taxonomy](https://en.wikipedia.org/wiki/Bloom's_taxonomy).
+![](./blooms.drawio.svg)
 
 ---
 

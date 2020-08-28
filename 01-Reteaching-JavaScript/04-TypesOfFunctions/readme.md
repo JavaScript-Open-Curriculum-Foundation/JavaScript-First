@@ -93,92 +93,125 @@ First-class object... {.fragment}
 
 #### Synchronous Functions:
 
-What a **function declaration** looks like:
+
+
+---
+
+#### **[Function Declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)** VS **[Function Expression](https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function#:~:text=A%20function%20expression%20is%20very,expressions%20to%20create%20anonymous%20functions.)** :
+
+This is a **Function DECLARATION**, {.fragment .current-only data-code-focus=1-3}
+
+This is a **Functions EXPRESSION** {.fragment .current-only data-code-focus=5-6 }
+
+This is a **ANONYMOUS Functions** {.fragment .current-only data-code-focus=7-8 }
+
+<div class="flex-slide">
+
+:::block
+
+
 ```JavaScript
 function add(param1, param2){
   return param1 + param2;
 };
-add(1, 2) //return a value of 3
+add(1, 2) //returns a value of 3
+// Expression
+const name = function(){/*Code Block*/}
+// Anonymous Functions
+function(){ /*Code Block*/ }
 ```
 
-Has the following Features:
+{.column}
+:::
+
+:::block
+<!-- Has the following Features: -->
 
 **Block Syntax**, with `{}` at the begining and the end of the function and usually followed by a `;` {.fragment .current-only data-code-focus=1-3}
 
 
-:::block
-* **Function** keyword
-* Name of function, `add`
-* Parameters `(param1, param2)`, which act as variables inside the functions definition.
-{.fragment .current-only data-code-focus=1-1}
-:::
+* **Function** keyword {.fragment .current-only data-code-focus=1-1}
+* Name of function, `add` is on the right of the function keyword {.fragment .current-only data-code-focus=1-1}
+* Parameters `(param1, param2)`, which act as variables inside the functions definition. {.fragment .current-only data-code-focus=1-1}
+
 
 **Return** keyword, ends the function
 and the result is returned {.fragment .current-only data-code-focus=2-2}
 
-* Function must be called {.fragment .current-only data-code-focus=4-4}
+* Function must be called before it runs {.fragment .current-only data-code-focus=4-4}
 
 * When the function is called, we pass values into the **arguements** `(1,2)` {.fragment .current-only data-code-focus=4-4}
 
 * When the function is called, we pass values into the **arguements** `(1,2)` {.fragment .current-only data-code-focus=1-2}
 
+<!-- Function Expression -->
+
+The main difference is where the function `name` is place. {.fragment .current-only data-code-focus=5-5 }
+
+The function `name` is placed on the left hand side of the `function` keyword. {.fragment .current-only data-code-focus=5-5 }
+
+In an Expression, the name can be ommitted in order to make it **Anonymous** {.fragment .current-only data-code-focus=7-8 }
+
+This usually used as a callback or inside and IFFE. {.fragment}
+
+<!-- Anonymous Functions  -->
+This usually used as a callback or inside and IFFE. {.fragment}
+
+{.double-column}
+:::
+
+</div>
+
 ---
 
-### Function Expression 
- 
-```javascript
-const name = function(){
-  /*Code Block*/
-}
-```
-<!-- Help them: remember -->
- refers to  cs
-
----
-
-
-### Arrow Functions 
+### [Arrow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) Functions 
 
 ```javascript
-  // single line
-  () => console.log("single");
-  // multiline
-  () => {
-    console.log("multiline");
-  }
   // named arrow function
   const name = (params) => {
     console.log(params,"named");
   }
+  // multiline
+  () => {
+    console.log("multiline");
+  }
+  // single line
+  (a,b,c) => console.log("single");
+  a => console.log(a);
 ```
-<!-- Help them: remember -->
+
+This is an **expression** using an arrow function expressin {.fragment .current-only data-code-focus=1-4 }
+
+This is the **Anonymous** version. {.fragment .current-only data-code-focus=5-8 }
+
+The `()` are used for multiple parameters and the `{}` can be ommitted. {.fragment .current-only data-code-focus=10-10 }
+
+The `()` can be ommitted. {.fragment .current-only data-code-focus=11-11 }
 
 ---
 
-
-### Anonymous Functions 
-
- 
-```javascript
-function(){ /*Code Block*/ }
-```
-<!-- Help them: remember -->
-This usually used as a callback or inside and IFFE.
-
----
 
 ### IFFE 
 
 
 ```javascript
-  (function () {
+  // ()()
+  // (function(){})()
+  // (()=>{})()
+  (
+  function () {
     var foo = "bar";
-    // Outputs: "bar"
     console.log(foo);
-  })();
+  }
+  )
+  ();
 ```
+
+
 <!-- Help them: remember -->
- refers to  cs
+We start with two parentheses `()()`. {.fragment .current-only data-code-focus=1-1 }
+
+Then add an anonymous function, inside the first `()`.  {.fragment .current-only data-code-focus=2-3 }
 
 
 
@@ -253,12 +286,9 @@ This defines the doument type as html. {.fragment .current-only data-code-focus=
 * Its evaluation has no side effects (no mutation of local static variables, non-local variables, mutable reference arguments or I/O streams). -->
 
 
-### Async Functions
+### Asynchronous Functions
 
-Callbacks {.fragment .current-only  }
-
-:::block
-
+[Callback](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 ```javascript
 function callbackFunction(var1, callback) {
     callback(var1);		
@@ -267,11 +297,10 @@ function callbackFunction(var1, callback) {
 callbackFunction(1, function (x) { console.log(x); })
 ```
 {.fragment .current-only  data-code-focus=1-5}
-:::
-
 
 
 ---
+
 [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 <!-- Source: [FCC](https://www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/) -->
 
@@ -287,27 +316,64 @@ const myPromise = new Promise((resolve, reject) => {
 });
 ```
 
+---
 
 
-Generator
+[Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
+```javascript
+function callbackFunction(var1, callback) {
+    callback(var1);		
+}
 
-Async Functions
-
-
-
-```JavaScript
+callbackFunction(1, function (x) { console.log(x); })
 ```
+{.fragment .current-only  data-code-focus=1-5}
+
+
+---
+
+[Async Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
+```javascript
+function callbackFunction(var1, callback) {
+    callback(var1);		
+}
+
+callbackFunction(1, function (x) { console.log(x); })
+```
+{.fragment .current-only  data-code-focus=1-5}
+
 This defines the doument type as html. {.fragment .current-only data-code-focus=1-1}
 
 ---
 
 ### Object Oriented Functions
-This gets it's own chapter
+This will get it's own chapter later, in **Design Patterns**.
+There we'll go over
+Right now, the point 
 
+--
 
-Constructor Function
+[Constructor Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/Function)
 
-Class
+Sometimes we need a "blueprint" for creating many objects of the same "type". {.fragment .current-only  }
+
+```javascript
+function Person(first, last, age) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+}
+const myFather = new Person("John", "Doe", 50, "blue");
+```
+This is our constructor function.{.fragment .current-only  data-code-focus=1-5}
+
+This defines the doument type as html. {.fragment .current-only data-code-focus=1-1}
+
+--
+
+[Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+> "Classes are a template for creating object" {.fragment .current-only  }
 
 
 ---

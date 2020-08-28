@@ -512,7 +512,12 @@ My second dataset, 28, 48, 40, 19, 86, 27, 90
 { 
 "data" : {
 	"labels" : ["Enero", "Febrero", "Marzo", "Avril", "Mayo", "Junio", "Julio"],
-	"datasets" : [{ "borderColor": "#0f0", "borderDash": ["5","10"] }, { "borderColor": "#0ff" } ]
+	"datasets" : [
+      { 
+        "borderColor": "#0f0", "borderDash": ["5","10"] 
+      }, 
+      { "borderColor": "#0ff" } 
+    ]
 	}
 }
 -->
@@ -535,9 +540,20 @@ My second dataset, 28, 48, 40, 19, 86, 27, 90
 <!-- 
 {
 "data" : {
-"datasets" : [{ "backgroundColor": "#0f0" }, { "backgroundColor": "#0ff" } ]
+"datasets" : [
+    { "backgroundColor": "#0f0" }, 
+    { "backgroundColor": "#0ff" } 
+  ]
 },
-"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": true }], "yAxes": [{ "stacked": true }] } }
+"options": { "responsive": true, "scales": { 
+    "xAxes": [
+        { "stacked": true }
+    ], 
+    "yAxes": [
+        { "stacked": true }
+    ]
+  } 
+  }
 }
 -->
 </canvas>
