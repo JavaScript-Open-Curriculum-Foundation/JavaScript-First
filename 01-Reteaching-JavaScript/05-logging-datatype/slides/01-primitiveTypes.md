@@ -1,22 +1,36 @@
 ---
-title: "Primitive Data Types"
+# This file is best viewed in vscode using vscode-reveal
+# https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal
+title: "Primitive Datatypes"
 logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg"
-theme : "night"
-transition: "slide"
-highlightTheme: "monokai"
-slideNumber: true
-enableChalkboard: false
-enableMenu: false
-loop: true
-# autoSlide: 5000 
-# controlsLayout: 'edges'
+theme: "night"
+highlightTheme: "Monokai"
+#transition: " slide "
+#transitionSpeed: " default " 
+#slideNumber: true
+#loop: true
+#autoSlide: 5000 
 # openButton: false
+#enableMenu: false
+# controlsLayout: 'edges'
 # controls: true
+#enableChalkboard: false
 # enableTitleFooter: false
+#autoSlideStoppable: true
 ---
+
+<link rel='stylesheet' href='theme.css'>
 <style>
-.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
 </style>
+
+
+#### Learning Objectives
+1. Identify primitive types and non-primitive objects with console
+2. Explain the null bug and how to check for it.
+3. Demonstrate conditional logic by creating JS functions to check the datatype
+
+---
+
 
 ### Primitive Types
 
@@ -187,10 +201,9 @@ and the result is returned {.fragment .current-only data-code-focus=2-2}
 
 ---
 
-### Anatomy of functions: 
-#### Knowledge Check
+#### Knowledge Check 1
 
-What's the difference between **Parameters** and  **arguements** ? {.fragment .current-only data-code-focus=1-4}
+#### What's the difference between **parameters** and  **arguements** ?
 
 ```JavaScript
 function add(param1, param2){
@@ -198,6 +211,10 @@ function add(param1, param2){
 };
 add(1, 2) //return a value of 3
 ```
+
+Arguments are when you **DEFINE the function** {.fragment .current-only data-code-focus=1-3 }
+
+Arguments are when you **CALL the function** {.fragment .current-only data-code-focus=4-4 }
 
 ---
 
@@ -238,48 +255,14 @@ Step 5: Inside `primitives.js`, delete the previous code and create test variabl
 
 Step 6: Inside `primitives.js`, after our test variables, create a function called `LOGprimitive`. {.fragment .current-only data-code-focus=9-16}
 
+Step 7: The [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) operator is used check if it is anything other than a primitive. {.fragment .current-only data-code-focus=11-11}
+
+Step 8: we then **return** a console log of the value passed through the arguements {.fragment .current-only data-code-focus=11-11}
+
+Step 9: If any of those conditions are true, we say it's not a primitive{.fragment .current-only data-code-focus=15-15}
+
 Step 7: Inside `primitives.js`, after our function, `LOGprimitive`, use the function to test our data. {.fragment .current-only data-code-focus=18-26}
 
 Step 8: Explain the error... {.fragment .current-only data-code-focus=18-20}
 
 ---
-
-### Thank You for reading...
-
-If you liked this you can always read more on github by clicking the image below...
-
-<p align="center">
-  <a href="https://github.com/HansUXdev/JavaScript-First">
-    <img src="https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg" height="300px" alt="HTTP Protocol"/>
-  </a>
-</p>
-
-You can view more content here:
-
-<a href="https://medium.com/@hansOnConsult" class="MEDIUM">
-   <img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />
-</a>
-<a href="https://dev.to/hansuxdev" class="DEV TO">
-   <img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" />
-</a>
-<a href="https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about" class="YOUTUBE">
-   <img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" />
-</a>
-
-<a href="https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about" class="Twitch">
-   <img src="https://img.shields.io/twitch/status/hansoncoding?style=for-the-badge" />
-</a>
-
-
-
----
-
-### Check it the full book online
-
-* If you liked this content, consider giving it a star on github <a class="github-button" href="https://github.com/HansUXdev/JavaScript-First" data-icon="octicon-star" data-size="large" aria-label="Star HansUXdev/JavaScript-First on GitHub">Star</a>
-
-
-* Otherwise consider becoming a github sponsor 
-<a class="github-button" href="https://github.com/sponsors/HansUXdev" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @HansUXdev on GitHub">Sponsor</a>
-
-<script async defer src="https://buttons.github.io/buttons.js"></script>

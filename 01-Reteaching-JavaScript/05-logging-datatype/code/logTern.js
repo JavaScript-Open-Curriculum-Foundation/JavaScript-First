@@ -1,37 +1,17 @@
-const LOGexplained = (VAR) => {
-  const LOG = console.log;
-  ( 
-    typeof VAR==="string" || typeof VAR==="number" ||
-    typeof VAR==="boolean"||typeof VAR==="symbol"  ||
-    typeof VAR==="bigint"
-    && typeof VAR !=="object" && VAR !==null && VAR !==undefined
-  ) ?
-      LOG("\n PRIMITIVE: ", typeof VAR, "\n Value: ",VAR) 
-    :
-      ( Array.isArray(VAR) ) ?  
-        LOG(`type: Array Object,
-        data:
-        `)& console.table(VAR)
-      :
-      (VAR !==null && typeof VAR === "object")  ?
-      LOG(`type: ${VAR}
-      frozen: ${Object.isFrozen(VAR)}
-      sealed: ${Object.isSealed(VAR)}
-      data:
-      ${JSON.stringify(VAR)}
-      `)
-      : 
-      (typeof VAR === "function")  ?
-        LOG(`type: ${VAR},
-        frozen: ${Object.isFrozen(VAR)},
-        sealed: ${Object.isSealed(VAR)}
-        `)
-      :
-        (VAR===null) ? 
-            LOG("\n must be null: ", "'",typeof VAR,"'") 
-      :
-        LOG("\n must be undefined... \n");
-} 
+let vUndefined;
+const vNull = null;
+
+const vString = "some text"; 
+const vNumber = 10; 
+const vBoolean = false; 
+const vSymbol = Symbol('foo');
+const vBigInt = BigInt(9007199254740991);
+
+const vObjectObj = {property: "Value"}
+const vArrayObject = [1, 2.1, "string"]
+function functionObject(params) {}
+async function functionAsync(params) {}
+class ClassObj {} 
 
 
 const LOG = (VAR) => {

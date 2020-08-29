@@ -22,7 +22,6 @@ autoSlideStoppable: true
 <link rel="stylesheet" href="https://raw.githubusercontent.com/HansUXdev/JavaScript-First/master/theme.css">
 <style>
 /* .line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
-.reveal ul{ margin:0 !important;}
 .line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
 
 .flex-slide{display:flex}

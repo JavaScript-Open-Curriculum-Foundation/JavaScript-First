@@ -1,46 +1,71 @@
 ---
 # This file is best viewed in vscode using vscode-reveal
 # https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal
-title: "log"
+title: "Logging JavaScript Datatypes"
 logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg"
-theme : "night"
-transition: "slide"
-highlightTheme: "monokai"
-slideNumber: true
-loop: true
-autoSlide: 5000 
+theme: "night"
+highlightTheme: "Monokai"
+#transition: " slide "
+#transitionSpeed: " default " 
+#slideNumber: true
+#loop: true
+#autoSlide: 5000 
 # openButton: false
-enableMenu: false
+#enableMenu: false
 # controlsLayout: 'edges'
 # controls: true
-enableChalkboard: false
+#enableChalkboard: false
 # enableTitleFooter: false
-autoSlideStoppable: true
+#autoSlideStoppable: true
 ---
 
+<link rel='stylesheet' href='theme.css'>
 <style>
-.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
-.reveal ul{ margin:0 !important;}
-.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
-
-.flex-slide{display:flex}
-.column {display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 4;
-}
-
-.double-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-.present {}
-.flex-slide p.fragment{ font-size: 0.6em; }
-
-h1, h2, h3, h4, h5, h6, p {color:white;}
 </style>
+
+
+
+### Excercise 1: Logging Primitive Types 
+Step 1: Inside `0-student_files/chp1/primitives.js` type the following code  {.fragment}
+ 
+```javascript
+let vUndefined;
+const vNull = null;
+
+const vString = "some text"; 
+const vNumber = 10; 
+const vBoolean = false; 
+const vSymbol = Symbol('foo');
+const vBigInt = BigInt(9007199254740991);
+
+function LOGprimitive(VAR){
+  if (typeof VAR !=="object" && VAR !=="function" && VAR !==null && VAR !==undefined)
+  {
+    return console.log("\n PRIMITIVE: ", typeof VAR, "\n Value: ",VAR);
+  }
+  return console.log("\n NOT PRIMITIVE..")
+}
+
+LOGprimitive(vUndefined)
+LOGprimitive(vNull)
+
+LOGprimitive(vString)
+LOGprimitive(vNumber)
+LOGprimitive(vBoolean)
+LOGprimitive(vSymbol)
+LOGprimitive(vBigInt)
+
+```
+Step 2:  Define what a variable for each **primitate** type. {.fragment .current-only data-code-focus=1-9 }
+
+Step 2: create something a **function** called `LOGprimitive` that uses a conditional statement and the typeof operator to determine if the variable is a primitive type {.fragment .current-only data-code-focus=10-16 }
+
+Step 3: Here we are using a **conditional if statement** refers to  cs-h
+
+
+---
+
+
 
 
 # Logging Datatypes

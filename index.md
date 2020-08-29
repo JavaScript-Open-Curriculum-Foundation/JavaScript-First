@@ -60,7 +60,7 @@ Every chapter and section is designed to meet some sort of state standard in the
 --
 
 #### Learning Structure
-Learning objectives are use [blooms taxonomy](https://en.wikipedia.org/wiki/Bloom's_taxonomy).
+Learning objectives use [blooms taxonomy](https://en.wikipedia.org/wiki/Bloom's_taxonomy).
 ![](./blooms.drawio.svg)
 
 --
@@ -109,9 +109,6 @@ This is designed to provide an **interactive experiance** through [codetogether]
 {.fragment .current-only  }
 :::
 
-
-
-
 --
 
 ### Interaction: Twitch
@@ -126,18 +123,6 @@ Work-based Learning is provided a number of ways:
 1. [Awesome Interview Questions](https://github.com/MaximAbramchuck/awesome-interview-questions) in each chapter.
 2. Small Business Sponsors
 3. Industry Partners 
-
---
-
-## Publishing
-
-This book will always be free for students and self-taught developers.
-
-<!-- This edition of the books is being self-published through [GetiPub](https://geti.pub) publishing. The published books will be made available for sale through normal book retail sources. -->
-
-If you'd like to contribute financially towards the effort creating this book, please consider following me on [medium](https://medium.com/@HansOnConsult), reading the articles on there and clapping / sharing them actually help more than you'd think.
-
-
 
 
 <!-- <a href="https://patreon.com/hansOnDevelopment"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.herokuapp.com%2Fendel%2Fpledgesssss&style=for-the-badge" /> </a> -->
@@ -188,16 +173,14 @@ If you'd like to contribute financially towards the effort creating this book, p
 
 #### Chapter 1: Reteaching JavaScript & Web Development
 
-<!-- > **Objective:** Students should know the syntax of JavaScript and how to use variables, hoisting,  -->
+> **Objective:** Students should know the syntax of JavaScript and how to use variables, hoisting, objects, functions, etc {.fragment .current-only  }
 
 | Lessons        | Type |
 |-------------|:-----------:|
 | [History of JavaScript](https://medium.com/javascript-in-plain-english/a-brief-history-of-javascript-9289a4d344d2)   | Article  |
 | [Learning Terminal, NVM, Git & Node.js](https://medium.com/swlh/terminal-basics-and-installing-nvm-node-js-631cf9476ac4)   | Activity  |
-| [What do you really know about Variables, Data Types and Immutability in JavaScript? ](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78)  | Article  |
-
-| JavaScript Datatypes   | Code Along  |
-| Types of Functions   | Code Along  |
+| [JavaScript Datatypes](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78)   | Code Along  |
+| [Types of Functions](01-Reteaching-JavaScript/04-TypesOfFunctions/export/index.html)   | Code Along  |
 | Logging Datatypes    | Exercise  |
 | War Game?    | Exercise  |
 
@@ -206,23 +189,19 @@ If you'd like to contribute financially towards the effort creating this book, p
 ---
 
 ####  Chapter 2: Introduction to Web Development with HTTP
-
+> **Objective:** Students will build their first website and deploy it by the end of the chapter. {.fragment .current-only  }
 
 | Lessons     | Type |
 |-------------|:-----------:|
-| Learn HTML by building an HTTP Server with Node.js        | Term  |
+| Learn HTML by building an HTTP Server with Node.js    | Exercise  |
+| Build a dynamic Website with Vanilla.js with Functions & Template Strings          | Exercise  |
+| Deploying a Dynamic site with HTTPS & Open SSL        | Exercise  |
 
---
-
-   - Learn HTML by building an HTTP Server with Node.js
-   - Learn HTML with ES6 Template Strings
-   - Secure your site with an SSL Certificate
-   - Hosting your node.js server
-   - Connect it to web Domain
 
 ---
 
 ####  Chapter 3: Test Driven Development
+> **Objective:** Students will learn how to write tests for code challenges and to automate front-end testing tasks. {.fragment .current-only  }
 
 | Lessons                        | Type |
 |--------------------------------|:-----------:|
@@ -233,8 +212,6 @@ If you'd like to contribute financially towards the effort creating this book, p
 
 
 ---
-
-
 
 ### Future Chapters
 This book is still in **early access** and **open source**. Which means future chapters and sub chapters in this book will be available on github in the [/00-Drafts](https://github.com/HansUXdev/JavaScript-First/tree/master/00-Drafts) directory.
@@ -269,8 +246,17 @@ You can also consider becoming a supporter in order to help motivate me to do a 
 
 --
 
-### What sponsorship helps support:
+## Publishing
 
+This book will always be free for students and self-taught developers.
+
+<!-- This edition of the books is being self-published through [GetiPub](https://geti.pub) publishing. The published books will be made available for sale through normal book retail sources. -->
+
+If you'd like to contribute financially towards the effort creating this book, please consider following me on [medium](https://medium.com/@HansOnConsult), reading the articles on there and clapping / sharing them actually help more than you'd think. 
+
+--
+
+### What sponsorship helps support:
 
 1. Raffle every month to give back to my supporters to help it grow.
 {.fragment }
