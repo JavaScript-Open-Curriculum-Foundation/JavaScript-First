@@ -39,22 +39,23 @@ autoSlideStoppable: true
 </p>
 <h3 align="center"> JavaScript First</h3>
 
----
+--
 
 ### What this book covers:
 
 <p align="center">In this book, you'll learn how to code with JavaScript using the node.js runtime environment rather than a browser and by the end, you will build a server and a website using JavaScript.
 </p>
 
----
+--
 
 ### Approach
 This book attempts to adopt a Career and Technical Education appoach.
 
 ![CTE](CTE.drawio.svg)
 
+Learn more about the [specifics of the CTE](CTE.html)...
 
----
+--
 
 
 ### Academic Structure
@@ -136,7 +137,8 @@ If the button below says I'm live, Click it.
 Work-based Learning is provided a number of ways:
 1. [Awesome Interview Questions](https://github.com/MaximAbramchuck/awesome-interview-questions) in each chapter.
 2. Industry Partners 
-Scroll Down to Learn More...
+3. Small Business Events
+
 
 
 --
@@ -227,14 +229,33 @@ If you'd like to contribute financially towards the effort creating this book, p
 
 ### Chapter 1: Reteaching JavaScript & Web Development
 
-  - [History of JavaScript](https://medium.com/javascript-in-plain-english/a-brief-history-of-javascript-9289a4d344d2?source=friends_link&sk=e99b98fd76bf99dcc6fd1a85e60b4721)
+--
 
-  - [Learning Terminal, NVM & Node.js](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78)
-  
-  
-  - [Types of Functions]() 
+| Lessons        | Type |
+|-------------|:-----------:|
+| [History of JavaScript](https://medium.com/javascript-in-plain-english/a-brief-history-of-javascript-9289a4d344d2)   | Article  |
+| [Learning Terminal, NVM, Git & Node.js](https://medium.com/swlh/terminal-basics-and-installing-nvm-node-js-631cf9476ac4)   | Article / Activity  |
+| JavaScript Datatypes   | Code Along  |
+| Types of Functions   | Code Along  |
+| Logging Datatypes    | Project  |
+| War Game?    | Project  |
 
-  - [logging datatypes](01-Reteaching-JavaScript/05-logging-datatype/export/index.html) 
+---
+
+###  Chapter 2: Introduction to Web Development with HTTP
+   - Learn JavaScript before by building an HTTP Server with Node.js
+   - Learn HTML with ES6 Template Strings
+   - Secure your site with an SSL Certificate
+   - Hosting your node.js server
+   - Connect it to web Domain
+
+--
+
+###  Chapter 3: Test Driven Curriculum
+   - Unit Tests 
+   - Users Tests (Twitter Bot)
+   - Automatic Responsive Testing 
+   - Automatic Cross-Browser Testing 
 
 
 ---
@@ -267,7 +288,7 @@ Current Content includes:
 5. Data Structures
 6. Algorithms
 
----
+--
 
 ## Road Map
 This is a visual demonstration of a handful of the things I want to cover...

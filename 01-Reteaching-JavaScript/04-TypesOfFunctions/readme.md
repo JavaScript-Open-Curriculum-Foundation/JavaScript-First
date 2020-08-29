@@ -1,5 +1,5 @@
 ---
-title: "Functions"
+title: "Types of Functions"
 logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg"
 theme : "night"
 transition: "slide"
@@ -48,14 +48,22 @@ This chapter should cover the following:
 
 A functions is block of reusable code to preform a task. {.fragment}
 
-First-class object... {.fragment}
+[First-class object](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function) and are treated just like any other variable{.fragment}
 
 ---
 
 ### Catagories of Functions
 
 **1. Synchronous Functions** {.fragment }
-:::block
+
+**2. Async Functions** {.fragment   }
+
+**3. Object Oriented Functions** {.fragment }
+
+---
+
+### Synchronous Functions
+
 1. Function Declaration
 2. Function Expression
 3. Anonymous Functions
@@ -63,36 +71,24 @@ First-class object... {.fragment}
 5. Curried Function
 6. Closure
 7. IFFE
-{.fragment .current-only  }
-:::
 
-**2. Async Functions** {.fragment   }
-:::block
+
+---
+
+### Async Functions 
+
 1. Callbacks
 2. Promises
 3. Generator
 4. Async / Await
 5. Async Generator
-{.fragment .current-only  }
-:::
-
-
-**2. Object Oriented Functions** {.fragment }
-:::block
-1. Constructor
-2. Class
-<!-- Add Callback and  -->
-{.fragment .current-only  }
-:::
-
-
 
 ---
 
+### Object Oriented Functions
 
-
-#### Synchronous Functions:
-
+1. Constructor
+2. Class
 
 
 ---
@@ -191,7 +187,7 @@ The `()` can be ommitted. {.fragment .current-only data-code-focus=11-11 }
 ---
 
 
-### IFFE 
+### [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) (Immediately Invoked Function Expression)
 
 
 ```javascript
@@ -286,7 +282,7 @@ This defines the doument type as html. {.fragment .current-only data-code-focus=
 * Its evaluation has no side effects (no mutation of local static variables, non-local variables, mutable reference arguments or I/O streams). -->
 
 
-### Asynchronous Functions
+### Callback Functions
 
 [Callback](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 ```javascript
@@ -334,14 +330,38 @@ callbackFunction(1, function (x) { console.log(x); })
 
 [Async Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 
-```javascript
-function callbackFunction(var1, callback) {
-    callback(var1);		
-}
 
-callbackFunction(1, function (x) { console.log(x); })
+
+```javascript
+(async ()=> {
+  try {
+    // let something = await fetch();
+    const URI = 'https://www.breakingbadapi.com/api/characters/1';
+    const DATA = await fetch(URI);
+    const json = await DATA.json();
+    console.log(monsters);
+  } 
+  catch (error) {
+     console.log(error)
+  }
+  finally {
+  // settled (fulfilled or rejected)
+  }
+})();
 ```
-{.fragment .current-only  data-code-focus=1-5}
+Begin the IIFE with `async` {.fragment .current-only data-code-focus=1-1}
+
+ENd the IIFE {.fragment .current-only data-code-focus=11-11}
+
+Add Try, Catch, Finally {.fragment .current-only data-code-focus=2-10}
+
+Write your code in `Try` statement {.fragment .current-only data-code-focus=2-4}
+
+Use Catch to handle the errors and reject Promises{.fragment .current-only data-code-focus=2-10}
+
+Then in the [Finally](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally) block handle  {.fragment .current-only data-code-focus=2-10}
+
+Add Try, Catch, Finally {.fragment .current-only data-code-focus=2-10}
 
 This defines the doument type as html. {.fragment .current-only data-code-focus=1-1}
 

@@ -6,16 +6,16 @@ logoImg: "logo.svg"
 theme : "night"
 transition: "slide"
 highlightTheme: "monokai"
-slideNumber: true
-loop: true
-autoSlide: 2000 
-# openButton: false
-enableMenu: false
-# controlsLayout: 'edges'
-# controls: true
-enableChalkboard: false
-# enableTitleFooter: false
-autoSlideStoppable: true
+# slideNumber: true
+# loop: true
+# autoSlide: 2000 
+# # openButton: false
+# enableMenu: false
+# # controlsLayout: 'edges'
+# # controls: true
+# enableChalkboard: false
+# # enableTitleFooter: false
+# autoSlideStoppable: true
 ---
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -78,6 +78,12 @@ This book attempts to adopt a Career and Technical Education appoach to the cont
 
 --
 
+### Blooms
+
+![](blooms.drawio.svg)
+
+--
+
 ## Objectives of the course
 Teach anyone 16+ how to code a website, server and mobile app using **JavaScript**.
 
@@ -114,11 +120,11 @@ This is helps provide an **interactive experiance** through  [codetogether](http
 ---
 
 ### Chapter 1: Reteaching JavaScript & Web Development
-  - History of JavaScript
+  - [History of JavaScript](https://medium.com/javascript-in-plain-english/a-brief-history-of-javascript-9289a4d344d2?source=friends_link&sk=e99b98fd76bf99dcc6fd1a85e60b4721)
   - Learning Terminal, NVM, Git & Node.js
   - JavaScript Datatypes
-  - logging datatypes 
   - Types of Functions
+  - Logging Datatypes 
 
 --
 
