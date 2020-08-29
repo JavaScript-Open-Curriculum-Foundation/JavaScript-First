@@ -33,11 +33,17 @@ h1, h2, h3, h4, h5, h6, p {color:white;}
   display:none;
 }
 .flex-slide p.fragment{ font-size: 0.6em; }
+
+/* Revealed TXT */
 .reveal .slides section .fragment.visible {
     opacity: 1;
     visibility: inherit;
     font-size: large;
 }
+.reveal .slides section .fragment.visible.large {font-size: large;}
+.reveal .slides section .fragment.visible.xlg {font-size: x-large;}
+.reveal .slides section .fragment.visible.xxlg {font-size: xx-large;}
+.reveal .slides section .fragment.visible.xxxlg {font-size: xxx-large;}
 /* Fix Issue of hidden content still taking up space */
 
 @media screen and (min-width: 500px) {}
