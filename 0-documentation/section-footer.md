@@ -24,16 +24,3 @@ You can view more content here:
 <a href="https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about" class="Twitch">
    <img src="https://img.shields.io/twitch/status/hansoncoding?style=for-the-badge" />
 </a>
-
-
-
-
-### Check it the full book online
-
-* If you liked this content, consider giving it a star on github <a class="github-button" href="https://github.com/HansUXdev/JavaScript-First" data-icon="octicon-star" data-size="large" aria-label="Star HansUXdev/JavaScript-First on GitHub">Star</a>
-
-
-* Otherwise consider becoming a github sponsor 
-<a class="github-button" href="https://github.com/sponsors/HansUXdev" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @HansUXdev on GitHub">Sponsor</a>
-
-<script async defer src="https://buttons.github.io/buttons.js"></script>

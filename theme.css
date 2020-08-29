@@ -1,21 +1,29 @@
-.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
-.reveal ul{ margin:0 !important;}
-.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
-
 .flex-slide{display:flex}
 .column {display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  flex: 4;
+  flex: 2;
 }
 
 .double-column {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  flex: 1;
+  flex: 2;
 }
-.present {}
+
+
+
+h1, h2, h3, h4, h5, h6, p {color:white;}
+
+
+
+
+.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
+.reveal ul{ margin:0 !important;}
+
+/* .present {} */
+
 .flex-slide p.fragment{ font-size: 0.6em; }
 
 h1, h2, h3, h4, h5, h6, p {color:white;}
@@ -24,3 +32,22 @@ h1, h2, h3, h4, h5, h6, p {color:white;}
 .fragment.fade-in-then-out:not(.current-fragment) {
   display:none;
 }
+.flex-slide p.fragment{ font-size: 0.6em; }
+.reveal .slides section .fragment.visible {
+    opacity: 1;
+    visibility: inherit;
+    font-size: large;
+}
+/* Fix Issue of hidden content still taking up space */
+
+@media screen and (min-width: 500px) {}
+@media screen and (max-width: 600px) {}
+
+@media screen and (min-width: 600px) {
+  .reveal table a, .reveal table td{
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 1024px) {}
+@media screen and (min-width: 1600px) {}

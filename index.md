@@ -29,8 +29,10 @@ autoSlideStoppable: true
 </script>
 
 <link rel="stylesheet" href="theme.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
 
-<!--  -->
+<link rel="stylesheet" href="theme.css">
+
 
 <p align="center">
    <a href="https://github.com/users/HansUXdev/sponsorship">
@@ -48,14 +50,6 @@ autoSlideStoppable: true
 
 --
 
-### Approach
-This book attempts to adopt a Career and Technical Education appoach.
-
-![CTE](CTE.drawio.svg)
-
-Learn more about the [specifics of the CTE](CTE.html)...
-
---
 
 
 ### Academic Structure
@@ -69,7 +63,17 @@ Every chapter and section is designed to meet some sort of state standard in the
 Learning objectives are use [blooms taxonomy](https://en.wikipedia.org/wiki/Bloom's_taxonomy).
 ![](./blooms.drawio.svg)
 
----
+--
+
+### Approach
+This book attempts to adopt a Career and Technical Education appoach.
+
+![CTE](CTE.drawio.svg)
+
+Learn more about the [specifics of the CTE](CTE.html)...
+
+
+--
 
 ## Instruction
 This book takes a **blended learning approach** designed to be friendly to both students and teachers.
@@ -89,115 +93,39 @@ Instructions are provided both in written form and online through various means.
 
 --
 
-### Online Interactions: GitPod
+### Online Interactions: About GitPod
 
-This is designed to provide an **interactive experiance** through [GitPod](http://gitpod.io/), [codetogether](https://www.codetogether.com/), [gitduck](https://gitduck.com/) and other means of activities that facilitate remote learning. 
+:::block
+[GitPod](http://gitpod.io/) is used to provide readers and students with a **zero-config developer environment** where they can follow along even on a chromebook or tablet.
+{.fragment .current-only  }
+:::
 
+:::block
+This is designed to provide an **interactive experiance** through [codetogether](https://www.codetogether.com/), [gitduck](https://gitduck.com/) and other means of activities that facilitate remote learning. 
 <p align="center">  
    <a href="https://gitpod.io/#https://github.com/HansUXdev/JavaScript-First"><img src="http://gitpod.io/button/open-in-gitpod.svg" alt="Gray shape shifter" height="50px"/></a>  
 </p>
 
+{.fragment .current-only  }
+:::
 
---
 
-### About GitPod
-[GitPod](http://gitpod.io/) is used to provide readers and students with a **zero-config developer environment** where they can follow along even on a chromebook or tablet.
 
---
-
-### Read and Code Along!
-
-Just click the button above or the GIF below. Phone, Tablet, Mac, Windows, Linux, Chromebook, as long as GitPod runs, you can learn how to code, anywhere! {.fragment .current-only  }
-
-GitPod is used to provide my readers with a zero-config developer environment where they can follow along even on a chromebook or tablet. {.fragment .current-only  }
 
 --
 
 ### Interaction: Twitch
-I use [Twitch](https://www.twitch.tv/hansoncoding/about) as a way to demo new content I'm working on before I do formal classes.
+I also use [Twitch](https://www.twitch.tv/hansoncoding/about) as a way to demo new content I'm working on before I do formal classes.
 
 <a href="https://www.twitch.tv/hansoncoding" class="Twitch"><img src="https://img.shields.io/twitch/status/hansoncoding?style=for-the-badge" /></a> 
 
 --
 
-### Live Streamed Classes
-
-I'm currently using [Twitch](https://www.twitch.tv/hansoncoding/about) as a way to deliver free live classes and go through the content of the book every week and collect feedback on it from viewers, but I don't know how sustainable this will be without [supporters](https://github.com/sponsors/HansUXdev).  
-
-If the button below says I'm live, Click it.
-
-<a href="https://www.twitch.tv/hansoncoding" class="Twitch">
-   <img src="https://img.shields.io/twitch/status/hansoncoding?style=for-the-badge" />
-</a>
-
-
----
-
 ## Work-based Learning
 Work-based Learning is provided a number of ways:
 1. [Awesome Interview Questions](https://github.com/MaximAbramchuck/awesome-interview-questions) in each chapter.
-2. Industry Partners 
-3. Small Business Events
-
-
-
---
-
-### LOCAL Business Sponsors
-I live in Arizona and I strongly believe in partnering with local buisnesses to provide job opportunities for new developers.
-
-
-:::block
-**What they get:**
-1. I will build them a website live during a [#CodeRedChallenge](https://github.com/HansUXdev/JS-OSC/tree/master/Code-Red-Challenge)
-2. Ask my followers build their own version as a portfolio item  ( job training )
-3. **Host an event** where they pick the winner and their new website
-{.fragment .current-only  }
-
-:::
-
---
-
-### Who are the current LOCAL Business Sponsors
-Here are a few places that have chosen to sponsor me... 
-
-1. [Dazzos Dog House](http://dazzosdoghouse.com/) {.fragment}
-   - Open: 10:30AM–8PM {.fragment}
-   - Call and place an order: 623-934-3536 {.fragment}
-   - Drive by pickup a Fire Dog: 
-   6143 W Glendale Ave Glendale, Az  85301 {.fragment}
-
---
-
-### Who are the current LOCAL Business Sponsors
-Here are a few places that have chosen to sponsor me... 
-
-2. [Greenway Barbershop]() {.fragment}
-   - Open: 8AM–5:30PM {.fragment}
-   - Get a hair cut at: 
-   15410 N 67th Ave #3, Glendale, AZ 85306 {.fragment}
-
---
-
-### Supporting Streamers
-
-If you like any of my streams, consider making a PR and nominating me to [awesome developer Streams](https://github.com/andyli/awesome-developer-streams/tree/shields.io#developers-that-stream) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-#### Here are a few I personally recommend and frequently raid:
-
-:::block
-TechnoTim 
-<a href="https://www.twitch.tv/TechnoTim" class="Twitch"> 
-   <img src="https://img.shields.io/twitch/status/TechnoTim?style=for-the-badge" />
-</a>
-
-whitep4nth3r
-<a href="https://www.twitch.tv/whitep4nth3r" class="Twitch"> 
-   <img src="https://img.shields.io/twitch/status/whitep4nth3r?style=for-the-badge" />
-</a>
-
-{.fragment}
-:::
+2. Small Business Sponsors
+3. Industry Partners 
 
 --
 
@@ -216,57 +144,92 @@ If you'd like to contribute financially towards the effort creating this book, p
 
 ---
 
+### Wecome to class... 
 
 
-## Getting Started
-1. Signup for [Github](https://github.com/)
-2. Go to the [book/course repository](https://github.com/HansUXdev/JavaScript-First)
-3. Fork it ![GitHub Forks](https://img.shields.io/github/forks/HansUXdev/JavaScript-First?style=social)
-4. Open it on GitPod
-5. Follow along in text (readme files or [medium](https://medium.com/@HansOnConsult)) or video ([twitch](https://www.twitch.tv/hansoncoding) / [youtube](https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about))
+<div class="flex-slide">
+
+:::block
+
+1. Open up the Content: 
+   hansmcmurdy.com/JavaScript-First/ {.fragment}
+2. These Slide: hansmcmurdy.com/JavaScript-First/Twitch.html {.fragment}
+
+{.column}
+:::
+
+:::block
+1. Signup for [Github](https://github.com/) {.fragment}
+2. Go to the [course repository](https://github.com/HansUXdev/JavaScript-First) at github.com/HansUXdev/JavaScript-First{.fragment}
+3. Fork it ![GitHub Forks](https://img.shields.io/github/forks/HansUXdev/JavaScript-First?style=social) {.fragment}
+4. Open it on GitPod {.fragment}
+5. Follow along in text (readme files or [medium](https://medium.com/@HansOnConsult)) or video ([twitch](https://www.twitch.tv/hansoncoding) / [youtube](https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about)) {.fragment}
+   
+{.double-column}
+:::
+
+</div>
 
 ---
 
-### Chapter 1: Reteaching JavaScript & Web Development
+### Chapters
+| Term        | Description |
+|-------------|:-----------:|
+| Article     | Is a medium article used to provide basic understanding of terms and conceptes  |
+| Code Along  | Code Slides break down the code line by line, students are expected to type out the code and run it.  |
+| Activity    | Students create something |
+| Exercise    | Students create something with step by step solutions |
+| Project     | This is a work-based project and has no stepped solutions. Students are expected to apply what they learned during the exercises.  |
 
---
+
+
+
+---
+
+#### Chapter 1: Reteaching JavaScript & Web Development
+
+<!-- > **Objective:** Students should know the syntax of JavaScript and how to use variables, hoisting,  -->
 
 | Lessons        | Type |
 |-------------|:-----------:|
 | [History of JavaScript](https://medium.com/javascript-in-plain-english/a-brief-history-of-javascript-9289a4d344d2)   | Article  |
-| [Learning Terminal, NVM, Git & Node.js](https://medium.com/swlh/terminal-basics-and-installing-nvm-node-js-631cf9476ac4)   | Article / Activity  |
+| [Learning Terminal, NVM, Git & Node.js](https://medium.com/swlh/terminal-basics-and-installing-nvm-node-js-631cf9476ac4)   | Activity  |
+| [What do you really know about Variables, Data Types and Immutability in JavaScript? ](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78)  | Article  |
+
 | JavaScript Datatypes   | Code Along  |
 | Types of Functions   | Code Along  |
-| Logging Datatypes    | Project  |
-| War Game?    | Project  |
+| Logging Datatypes    | Exercise  |
+| War Game?    | Exercise  |
+
+[View the whole chapter](/01-Reteaching-JavaScript/Overview.html) {.fragment .current-only  }
 
 ---
 
-###  Chapter 2: Introduction to Web Development with HTTP
-   - Learn JavaScript before by building an HTTP Server with Node.js
+####  Chapter 2: Introduction to Web Development with HTTP
+
+
+| Lessons     | Type |
+|-------------|:-----------:|
+| Learn HTML by building an HTTP Server with Node.js        | Term  |
+
+--
+
+   - Learn HTML by building an HTTP Server with Node.js
    - Learn HTML with ES6 Template Strings
    - Secure your site with an SSL Certificate
    - Hosting your node.js server
    - Connect it to web Domain
 
---
-
-###  Chapter 3: Test Driven Curriculum
-   - Unit Tests 
-   - Users Tests (Twitter Bot)
-   - Automatic Responsive Testing 
-   - Automatic Cross-Browser Testing 
-
-
 ---
 
-###  Chapter 2: Introduction to Web Development with HTTP
-  In progress...
+####  Chapter 3: Test Driven Development
 
-  - Learn JavaScript before HTML by building an HTTP Server with Node.js
-  - Hosting your node.js server with Glitch.io
-  - Build JSON API with Express
-  
+| Lessons                        | Type |
+|--------------------------------|:-----------:|
+| Writing Unit Tests             | Exercise  |
+| Automate Responsive Testing with puppeteer   | Exercise  |
+| Automate Cross-Browser with puppeteer   | Exercise  |
+| Build a Twitter Bot   | Exercise  |
 
 
 ---
@@ -278,15 +241,10 @@ This book is still in **early access** and **open source**. Which means future c
 
 Current Content includes:
 1. [Learn Mongo GitPod](https://github.com/HansUXdev/LearnMongoGitPod)
-2. War Games CLI Project
-3. Test Driven Development
-   1. Unit Tests
-   2. Users Tests
-   3. Responsive Testing
-   4. Cross-Browser Testing
-4. React
-5. Data Structures
-6. Algorithms
+2. War Games CLI Exercise?
+3. React
+4. Data Structures
+5. Algorithms
 
 --
 
@@ -311,8 +269,7 @@ You can also consider becoming a supporter in order to help motivate me to do a 
 
 --
 
-### If you got $5-20...
-#### You should consider becoming a sponsor in order to support:
+### What sponsorship helps support:
 
 
 1. Raffle every month to give back to my supporters to help it grow.
