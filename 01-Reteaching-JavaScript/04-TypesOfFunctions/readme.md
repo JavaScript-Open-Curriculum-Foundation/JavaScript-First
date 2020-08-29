@@ -13,6 +13,8 @@ enableMenu: false
 # controls: true
 enableChalkboard: false
 # enableTitleFooter: false
+# previewLinks: true
+# center: true
 ---
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176679651-1"></script>
@@ -140,11 +142,15 @@ and the result is returned {.fragment .current-only data-code-focus=2-2}
 
 * When the function is called, we pass values into the **arguements** `(1,2)` {.fragment .current-only data-code-focus=1-2}
 
+* Function **DECLARATIONS**, are always hoisted. {.fragment .current-only data-code-focus=1-3}
+
 <!-- Function Expression -->
 
-The main difference is where the function `name` is place. {.fragment .current-only data-code-focus=5-5 }
+The main difference is where the function `name` is place. {.fragment .current-only data-code-focus=6-6 }
 
-The function `name` is placed on the left hand side of the `function` keyword. {.fragment .current-only data-code-focus=5-5 }
+when function `name` is placed on the left hand side of the `function` keyword, its an expression. {.fragment .current-only data-code-focus=6-6 }
+
+`function`  **expressions** are hoisted in the browserm but not in node. {.fragment .current-only data-code-focus=6-6 }
 
 In an Expression, the name can be ommitted in order to make it **Anonymous** {.fragment .current-only data-code-focus=7-8 }
 
@@ -190,6 +196,17 @@ The `()` can be ommitted. {.fragment .current-only data-code-focus=11-11 }
 ### [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) (Immediately Invoked Function Expression)
 
 
+
+
+
+<!-- Help them: remember -->
+We start with two parentheses `()()`. {.fragment .current-only data-code-focus=1-1 }
+
+Then add an anonymous function, inside the first `()`.  {.fragment .current-only data-code-focus=2-3 }
+
+Can you **identify the lines of anonymous function**?  {.fragment .current-only data-code-focus=1-10 }
+
+:::block
 ```javascript
   // ()()
   // (function(){})()
@@ -202,15 +219,30 @@ The `()` can be ommitted. {.fragment .current-only data-code-focus=11-11 }
   )
   ();
 ```
+{.fragment  .fade-out }
+:::
 
+:::block
+This is what you normally see:
+```javascript
+  (function () {
+    var foo = "bar";
+    console.log(foo);
+  })();
+```
+{.fragment  .fade-in-then-out }
+:::
 
-<!-- Help them: remember -->
-We start with two parentheses `()()`. {.fragment .current-only data-code-focus=1-1 }
-
-Then add an anonymous function, inside the first `()`.  {.fragment .current-only data-code-focus=2-3 }
-
-
-
+:::block
+Increasingly more common:
+```javascript
+  (()=> {
+    var foo = "bar";
+    console.log(foo);
+  })();
+```
+{.fragment  .fade-in-then-out }
+:::
 
 ---
 
@@ -223,7 +255,7 @@ is the combination of a function bundled together (enclosed) with references to 
 function init() {
   var name = 'Mozilla'; 
   function displayName() { 
-    alert(name); 
+    console.log(name); 
   }
   displayName();
 }
@@ -239,8 +271,18 @@ init();
 ---
 
 ### [Currying](https://javascript.info/currying-partials) 
-is a transformation of functions that translates a function from callable as f(a, b, c) into callable as f(x)(y)(z) .
+> is a transformation of functions that translates a function from callable as f(a, b, c) into callable as f(x)(y)(z). {.fragment .current-only  } 
  
+
+ 
+Student Steps:
+
+Step 1: Inside `0-student_files/chp1/` create a file called `closureScoped`... {.fragment .current-only } 
+ 
+Step 2: Duplicate the code the slide {.fragment .current-only  data-code-focus=1-12} 
+ 
+Step 3: In your own words, explain how `code` works in a tweet, using #JavaScriptFIrst. {.fragment .current-only data-code-focus=1-12 } 
+
 ```javascript
 function closureScoped(job) {
   if (job=="student") {
@@ -255,20 +297,18 @@ function closureScoped(job) {
 }
 closureScoped("designer")("hans");
 ```
+<!-- Instructor Steps: -->
+Step 1: Define the function. {.fragment .current-only data-code-focus=1-11 }
 
-<!-- Help them: remember -->
- The functions checks what the job title is
+Step 2: Write a conditional if statement. {.fragment .current-only data-code-focus=2-4 }
 
+Step 3: return an **anonymous arrow function** with a `name` parameter. {.fragment .current-only data-code-focus=3-3 }
+
+By **returning** the `(name)=>`, the function `closureScoped();` gets access to  `("hans")` argument. {.fragment .current-only data-code-focus=3-3 }
+
+Step 4: finish with some funny else if statements {.fragment .current-only data-code-focus=5-10 }
 
 ---
-
-
-
-
-
-
-
-
 
 <!-- ### Pure Function
 
@@ -282,23 +322,51 @@ This defines the doument type as html. {.fragment .current-only data-code-focus=
 * Its evaluation has no side effects (no mutation of local static variables, non-local variables, mutable reference arguments or I/O streams). -->
 
 
-### Callback Functions
+[Callbacks](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 
-[Callback](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
+> is a function that receives another function name, as an **arguement** when it is called... {.fragment .current-only}
+
+Student Steps:
+
+Step 1: Inside `0-student_files/chp1/` create a file called `callbacks.js`... {.fragment .current-only } 
+ 
+Step 2: Duplicate the code the slide {.fragment .current-only  data-code-focus=1-12} 
+
+Step 3: In your own words, explain how `code` works in a tweet, using `#JavaScriptFirst`. {.fragment .current-only data-code-focus=1-12 } 
+
+
+
 ```javascript
 function callbackFunction(var1, callback) {
     callback(var1);		
 }
 
-callbackFunction(1, function (x) { console.log(x); })
+callbackFunction(
+  1, 
+  function (x) { console.log(x) }
+)
 ```
-{.fragment .current-only  data-code-focus=1-5}
+Explain the function:
+
+Step 1: Define the function. {.fragment .current-only data-code-focus=1-3 }
+
+Step 2: Use the function. {.fragment .current-only data-code-focus=4-8 }
+
+Note that `1` is the first arguement. {.fragment .current-only data-code-focus=6-6}
+
+Note that `function (x) { console.log(x) }` is the second arguement, when `callbackFunction()` is used. {.fragment .current-only data-code-focus=7-7 }
+
 
 
 ---
 
 [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 <!-- Source: [FCC](https://www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/) -->
+
+Student Steps:
+
+Step 1: Inside `0-student_files/chp1/` create a file called `promises.js` {.fragment .current-only data-code-focus=1-1 }
+{.fragment .current-only  data-code-focus=1-9}
 
 ```javascript
 const myPromise = new Promise((resolve, reject) => {  
@@ -312,18 +380,31 @@ const myPromise = new Promise((resolve, reject) => {
 });
 ```
 
+I promise I'll write more on this... {.fragment}
+Remember, I'm a javascript dev and used to rejection.. {.fragment}
+
+
 ---
 
-
 [Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
+
+> is returned by a generator function and it conforms to both the iterable protocol and the iterator protocol. {.fragment .current-only}
+
+Student Steps:
+
+Step 1: Inside `0-student_files/chp1/` create a file called `generators.js` {.fragment .current-only data-code-focus=1-1 }
+{.fragment .current-only  data-code-focus=1-5}
+
 ```javascript
-function callbackFunction(var1, callback) {
-    callback(var1);		
+function* generator() { 
+  yield 1;
+  yield 2;
+  yield 3;
 }
 
-callbackFunction(1, function (x) { console.log(x); })
+const gen = generator(); 
 ```
-{.fragment .current-only  data-code-focus=1-5}
+
 
 
 ---
@@ -339,7 +420,7 @@ callbackFunction(1, function (x) { console.log(x); })
     const URI = 'https://www.breakingbadapi.com/api/characters/1';
     const DATA = await fetch(URI);
     const json = await DATA.json();
-    console.log(monsters);
+    console.log(json);
   } 
   catch (error) {
      console.log(error)
@@ -369,14 +450,12 @@ This defines the doument type as html. {.fragment .current-only data-code-focus=
 
 ### Object Oriented Functions
 This will get it's own chapter later, in **Design Patterns**.
-There we'll go over
-Right now, the point 
 
 --
 
 [Constructor Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/Function)
 
-Sometimes we need a "blueprint" for creating many objects of the same "type". {.fragment .current-only  }
+> Sometimes we need a "blueprint" for creating many objects of the same "type". {.fragment .current-only  }
 
 ```javascript
 function Person(first, last, age) {
@@ -388,12 +467,55 @@ const myFather = new Person("John", "Doe", 50, "blue");
 ```
 This is our constructor function.{.fragment .current-only  data-code-focus=1-5}
 
-This defines the doument type as html. {.fragment .current-only data-code-focus=1-1}
+The keyword `THIS`, is essentially a reference to itself and the main way you can remember it is a constructor. {.fragment .current-only data-code-focus=2-4}
 
 --
 
 [Class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
 > "Classes are a template for creating object" {.fragment .current-only  }
 
+```javascript
+class Person {
+  constructor(first, last, age) {
+    this.first = first;
+    this.last = last;
+    this.age = age;
+  }
+}
+let me = new Person("John", "Doe", 50);
+```
+
+The is a "class" version of our previous constructor. {.fragment .current-only  data-code-focus=1-8}
+
+A JavaScript class does not work like classes in other languages. They are just an alternitive syntax. {.fragment .current-only  data-code-focus=1-8}
 
 ---
+
+
+### Thank You for reading...
+
+If you liked this you can always read more on github by clicking the image below...
+
+<!-- <p align="center">
+  <a href="https://github.com/HansUXdev/JavaScript-First">
+    <img src="https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg" height="300px" alt="HTTP Protocol"/>
+  </a>
+</p> -->
+
+**You can view more content here:**
+
+<a href="https://medium.com/@hansOnConsult" class="MEDIUM">
+   <img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />
+</a>
+<a href="https://dev.to/hansuxdev" class="DEV TO">
+   <img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" />
+</a>
+<a href="https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about" class="YOUTUBE">
+   <img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" />
+</a>
+
+<a href="https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about" class="Twitch">
+   <img src="https://img.shields.io/twitch/status/hansoncoding?style=for-the-badge" />
+</a>
+

@@ -1,7 +1,7 @@
 ---
 # This file is best viewed in vscode using vscode-reveal
 # https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal
-title: "HTTP with Node"
+title: "Learn Terminal with GitPod"
 logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg"
 theme : "night"
 transition: "slide"
@@ -18,37 +18,16 @@ enableChalkboard: false
 autoSlideStoppable: true
 ---
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176679651-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<link rel="stylesheet" href="https://raw.githubusercontent.com/HansUXdev/JavaScript-First/master/theme.css">
-<style>
-/* .line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
-.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
+  gtag('config', 'UA-176679651-1');
+</script>
 
-.flex-slide{display:flex}
-.column {display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 4;
-}
-
-.double-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-.present {}
-.flex-slide p.fragment{ font-size: 0.6em; }
-
-h1, h2, h3, h4, h5, h6, p {color:white;}
-
-.fragment.fade-in-then-out:not(.current-fragment) {
-  display:none;
-} */
-
-</style>
-
-
+<link rel="stylesheet" href="theme.css">
 
 <!-- 
 What level is their knowledge at?:
@@ -85,7 +64,8 @@ What level is their knowledge at?:
 
 ### What is GitPod? 
 
-GitPod is a  
+GitPod is:
+> Dev Environments Built for the Cloud.
 
 
 

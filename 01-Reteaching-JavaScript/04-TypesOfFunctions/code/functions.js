@@ -1,4 +1,41 @@
 /**
+ * 
+### Catagories of Functions
+
+**1. Synchronous Functions** {.fragment }
+:::block
+1. Function Declaration
+2. Function Expression
+3. Anonymous Functions
+4. Arrow Functions
+5. Curried Function
+6. Closure
+7. IFFE
+{.fragment .current-only  }
+:::
+
+**2. Async Functions** {.fragment   }
+:::block
+1. Callbacks
+2. Promises
+3. Generator
+4. Async / Await
+5. Async Generator
+{.fragment .current-only  }
+:::
+
+
+**2. Object Oriented Functions** {.fragment }
+:::block
+1. Constructor
+2. Class
+<!-- Add Callback and  -->
+{.fragment .current-only  }
+:::
+
+ */
+
+/**
  ** function
  */
 function firstFunction(params) {
