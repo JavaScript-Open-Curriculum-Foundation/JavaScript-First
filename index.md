@@ -180,7 +180,7 @@ Work-based Learning is provided a number of ways:
 | [History of JavaScript](https://medium.com/javascript-in-plain-english/a-brief-history-of-javascript-9289a4d344d2)   | Article  |
 | [Learning Terminal, NVM, Git & Node.js](https://medium.com/swlh/terminal-basics-and-installing-nvm-node-js-631cf9476ac4)   | Activity  |
 | [JavaScript Datatypes](https://medium.com/javascript-in-plain-english/what-do-you-really-know-about-variables-data-types-and-immutability-in-javascript-1730835a9e87?source=friends_link&sk=f71e5c38da34456f55ed813b23d4ed78)   | Code Along  |
-| [Types of Functions](01-Reteaching-JavaScript/04-TypesOfFunctions/export/index.html)   | Code Along  |
+| [Types of Functions](01-Reteaching-JavaScript/04-TypesOfFunctions/FunctionTypes/index.html)   | Code Along  |
 | Logging Datatypes    | Exercise  |
 | War Game?    | Exercise  |
 
