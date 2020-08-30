@@ -36,8 +36,14 @@ Students should be able to:
       - [Part 1](https://devtools.tech/build-your-own-express-js-part-one/)
       - [Part 2](https://devtools.tech/build-your-own-express-js-part-two/?ref=code-devtools-tec)
 
+
+**Basic Videos**
+1.  [Buffers, Streams, Pipes and Files](https://www.youtube.com/watch?v=8Vmvsn5JhVY)
+2.  [Async Javascript - Callbacks, Promises, Async Await](https://www.youtube.com/watch?v=_8gHHBlbziw)
+
+**Advanced Topic Videos**
+- [how to correctly stream a file over http](https://www.youtube.com/watch?v=aTEDCotcn20)
+- [Async Iterators: A New Future for Streams - Stephen Belanger](https://www.youtube.com/watch?v=YVdw1MDHVZs)
+
 * **Bleeding Edge**
   - [Streaming requests with fetch - HTTP 203](https://www.youtube.com/watch?v=G9PpImUEeUA)
-
-
-
