@@ -40,7 +40,11 @@ h1, h2, h3, h4, h5, h6, p {color:white;}
     visibility: inherit;
     font-size: large;
 }
+
+.flex-slide .task-list-item-label{font-size: large;}
+
 .reveal .slides section .fragment.visible.large {font-size: large;}
+.reveal .slides section .fragment.visible.lg {font-size: large;}
 .reveal .slides section .fragment.visible.xlg {font-size: x-large;}
 .reveal .slides section .fragment.visible.xxlg {font-size: xx-large;}
 .reveal .slides section .fragment.visible.xxxlg {font-size: xxx-large;}

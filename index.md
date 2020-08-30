@@ -210,6 +210,12 @@ Work-based Learning is provided a number of ways:
 | Automate Cross-Browser with puppeteer   | Exercise  |
 | Build a Twitter Bot   | Exercise  |
 
+---
+
+#### Chapter 4: JavaScript-like Databases with MongoDB
+| Term        | Description |
+|-------------|:-----------:|
+| [Learn Mongo with GitPod](https://hansmcmurdy.com/LearnMongoGitPod/)   | Exercise  |
 
 ---
 
