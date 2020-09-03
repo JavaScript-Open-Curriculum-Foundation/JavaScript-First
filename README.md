@@ -13,7 +13,13 @@
 
 # Read and Code Along!
 
-Just click the button above or the GIF below. Phone, Tablet, Mac, Windows, Linux, Chromebook, as long as GitPod runs, you can learn how to code, anywhere!
+<p align="center">
+   <a href="https://github.com/users/HansUXdev/sponsorship">
+      <img src="./GitPodSlides.png" style=" height:300px"  alt="JavaScript Logo"/>
+   </a>
+</p>
+
+Just click the button below. Phone, Tablet, Mac, Windows, Linux, Chromebook, as long as GitPod runs, you can learn how to code, anywhere!
 
 <p align="center">  
    <a href="https://gitpod.io/#https://github.com/HansUXdev/JavaScript-First"><img src="http://gitpod.io/button/open-in-gitpod.svg" alt="Gray shape shifter" height="50px"/></a>  
@@ -84,6 +90,13 @@ The majority of the content in this repository is the refined version of the con
 
 -----
 
+## Credits
+This book would be able to run in the cloud without the enormious effort made by [@GitPod](https://www.gitpod.io/).
+
+The ability to view the educational slides would not have been possible without **[@evilz](https://github.com/evilz/vscode-reveal)** so please consider giving it a star [![GitHub](https://img.shields.io/github/stars/evilz/vscode-reveal.svg?style=flat-square)](https://github.com/evilz/vscode-reveal).
+
+-----
+
 
 ## Publishing
 
@@ -100,6 +113,8 @@ You can also contribute more significantly by becoming a direct sponsor please c
 
 # Supporting Awesome Developer Streams [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 Dive deep into the ocean of [awesome Streamer](https://github.com/andyli/awesome-developer-streams/tree/shields.io#developers-that-stream).
+
+
 
 
 <!-- # Content Creation Perspective
