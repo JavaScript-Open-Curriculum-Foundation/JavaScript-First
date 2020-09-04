@@ -8,12 +8,20 @@ title: "VSCode Reveal intro"
 ---
 
 ::: block
-*How to use VS-Reveal* {style=background:red;width:500px}
+*How to change directory* {style=background:red;width:500px}
 ::: 
+
+![](change-directory-relative.gif)
 
 ---
 
-// @[vine](etVpwB7uHlw)
+
+::: block
+*How to view the instructions for the lesson* {style=background:red;width:500px}
+::: 
+
+<!-- ![](change-directory-relative.gif) -->
+
 
 ---
 
