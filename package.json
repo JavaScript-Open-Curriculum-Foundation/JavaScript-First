@@ -1,0 +1,23 @@
+{
+  "name": "JavaScript-First",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">    <a href=\"https://github.com/users/HansUXdev/sponsorship\">       <img src=\"./logo.svg\" style=\"max-width:50%;\" height=\"200px\" alt=\"JavaScript Logo\"/>    </a> </p> <h1 align=\"center\"> JavaScript First</h1> <p align=\"center\">In this book, you'll learn how to code with JavaScript using the node.js runtime environment rather than a browser and by the end, you will build a server and a website using JavaScript. </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HansUXdev/JavaScript-First.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HansUXdev/JavaScript-First/issues"
+  },
+  "homepage": "https://github.com/HansUXdev/JavaScript-First#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"name": "demo",
+	"version": "1.0.0",
+	"license": "MIT",
+	"dependencies": {
+		"@hediet/node-reload": "0.7.3",
+		"@types/node": "^13.7.4",
+		"typescript": "^3.8.2"
+	},
+	"scripts": {
+		"dev": "tsc --watch"
+	}
+}

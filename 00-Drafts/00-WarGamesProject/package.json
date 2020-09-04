@@ -1,0 +1,12 @@
+{
+  "name": "00-WarGamesProject",
+  "version": "1.0.0",
+  "description": "## The problem you wanted to solve We saw a movie with command line game and wanted to try and recreate it by applying our knowledge.",
+  "main": "ConsoleGaming.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
