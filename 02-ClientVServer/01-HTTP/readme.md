@@ -90,14 +90,15 @@ The **browser** then *reads* that file and presents it to the user according the
 
 --
 
-### HTTP Status Codes with CATS..
+### HTTP Status Codes 
+#### with CATS..
 
 Credit to [http.cat](https://http.cat/).
 
 :::block
 
 <p align="center">
-  <img src="https://github.com/HansUXdev/JavaScript-First/blob/master/01-Reteaching-JavaScript/04-client-vs-server/imgs/HTTPcats.gif?raw=true" height="400px" alt="HTTP Protocol"/>
+  <img src="http://g.recordit.co/upgfpUOSvg.gif" height="400px" alt="HTTP Protocol"/>
 </p>
 
 {style=width:60%;float:left;}
@@ -360,34 +361,6 @@ The **footer** should should say "By" and **your name** and wrapped in a `<foote
 Set the page content-length. {.fragment .current-only data-code-focus=17-17}
 
 Send it. {.fragment .current-only data-code-focus=20-20}
-
----
-
-### HTTP With JavaScript ES6
-
-```javascript
-const http = require('http')
-const fs = require('fs');
-const PORT = 7000;
-
-const HtmlTemplateString = (header,body,footer) => {/* Code from above */}
-let page1 =HtmlTemplateString(/* Same Code from above */)
-
-  http.createServer(
-    (request,res)=>{
-      if (request.url == '/') {
-        res.writeHead(200, {
-          'Content-Type': 'text/html',
-          'Content-Length': page1.length,
-          'Expires': new Date().toUTCString()
-        })
-        res.end(page1);
-      }
-    }
-  ).listen(PORT);
-
-
-```
 
 
 ---
