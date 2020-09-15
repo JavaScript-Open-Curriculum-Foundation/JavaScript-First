@@ -46,6 +46,13 @@ This chapter should cover the following:
 
 ---
 
+## Most Helpful meme
+
+<!-- ![](imgs/CallbackMeme.png) -->
+![](https://i.imgflip.com/4etnqo.jpg)
+
+---
+
 ### What is a Promise?
 
 

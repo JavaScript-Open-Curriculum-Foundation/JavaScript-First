@@ -20,14 +20,31 @@ Introduction to Node.js
 
 ### Overview
 
-1. Node.js
-2. NPM
-3. Package.json
-4. npm install
-5. npm audit fix
-6. NVM
+1. Why Learn JavaScript with Node.js
+2. Why learn terminal, git, NVM and docker?
+3. What is NPM & NVM ?
+4. What is the Package.json?
+5. Global Modules vs 3rd Party modules
+6. npm install 
+7. npm audit fix
+8. Using NVM
 
 ---
+
+### Why Learn JavaScript with Node.js
+
+Node.js made JavaScript a programing language and can be used to learn the fundemental how to build: {.fragment }
+
+* Servers {.fragment }
+* Websites {.fragment }
+* Mobile Apps {.fragment }
+* Hardware {.fragment }
+* AI {.fragment }
+* Much more {.fragment }
+
+---
+
+
 
 
 ### NPM
