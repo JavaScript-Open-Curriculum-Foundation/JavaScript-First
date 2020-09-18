@@ -7,8 +7,8 @@ theme : "night"
 transition: "slide"
 highlightTheme: "monokai"
 slideNumber: true
-loop: true
-autoSlide: 5000 
+# loop: true
+autoSlide: 50000 
 # openButton: false
 enableMenu: false
 # controlsLayout: 'edges'
@@ -28,17 +28,16 @@ It stands for Hypertext Transfer Protocol **Secure** {.fragment .current-only  }
 
 Websites without it should are also demoted in **search engine optiminatization SEO** {.fragment .current-only  }
 
-
-
----
-
-
-
 ---
 
 
 ### Creating keys, certificates and decrypting them 
  
+ 
+Check if openssl installed, `openssl version -a`. {.fragment .current-only  }
+ 
+
+
 :::block
 ```bash
 openssl req -x509 -newkey rsa:2048 -keyout keytmp.pem -out cert.pem -days 365
@@ -48,7 +47,7 @@ openssl req -x509 -newkey rsa:2048 -keyout keytmp.pem -out cert.pem -days 365
 
 ![](https://user-images.githubusercontent.com/5007073/91366577-fc3bd600-e7b8-11ea-8ff4-316ef3644665.png) {.fragment}
 
-I used the term, "open" {.fragement}
+
 
 
 ---
