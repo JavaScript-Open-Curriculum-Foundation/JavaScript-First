@@ -1,26 +1,56 @@
-.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
-.reveal ul{ margin:0 !important;}
-.line.focus{background:none;font-size: xx-large;color: #5cc4ea;}
+.language-javascript > .line.focus {
+  background: transparent !important;
+  font-size: calc(1.325rem + 0.9vw);
+  color: #5cc4ea;
+}
+@media (min-width: 1200px) {
+  .language-javascript > .line.focus {
+    font-size: 2rem;
+  }
+}
 
-.flex-slide{display:flex}
-.column {display: flex;
+.reveal ul {
+  margin: 0 !important;
+}
+
+/* Fix Issue of hidden content still taking up space */
+.fragment.fade-in-then-out:not(.current-fragment) {
+  display: none;
+}
+
+.present .flex-slide {
+  display: flex;
+}
+.present .column {
+  display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 4;
 }
-
-.double-column {
+.present .double-column {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
 }
-.present {}
-.flex-slide p.fragment{ font-size: 0.6em; }
-
-h1, h2, h3, h4, h5, h6, p {color:white;}
-
-/* Fix Issue of hidden content still taking up space */
-.fragment.fade-in-then-out:not(.current-fragment) {
-  display:none;
+.present h1, .present h2, .present h3, .present h4, .present h5, .present h6, .present p {
+  color: white;
+}
+@media (min-width: 640px) {
+  .present img {
+    max-height: 15rem;
+  }
+}
+@media (min-width: 1024px) {
+  .present img {
+    max-height: 15rem;
+  }
+}
+.present .flex-slide p.fragment {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  .present .flex-slide p.fragment {
+    font-size: 2rem;
+  }
 }

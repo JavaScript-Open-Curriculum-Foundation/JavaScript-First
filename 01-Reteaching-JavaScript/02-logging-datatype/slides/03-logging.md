@@ -24,6 +24,10 @@ loop: true
 #### Putting it All Together
 
 ```javascript
+const Null = null;
+const Numbers = 42;
+const Booleans= false;
+const strings = "some text";
 const LOG = (VAR) => {
   const LOG = console.log;
   ( 
@@ -58,6 +62,7 @@ const LOG = (VAR) => {
       :
         LOG("\n must be undefined... \n");
 } 
+LOG(Numbers)
 ```
 <!-- These are a few of the most common non-primitive types. -->
 
