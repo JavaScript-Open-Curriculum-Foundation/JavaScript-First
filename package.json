@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.0.0-alpha1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "rfs": "^9.0.3"
   }
 }

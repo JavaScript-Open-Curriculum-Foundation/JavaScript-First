@@ -156,6 +156,8 @@ $custom: (
 .reveal.slide{
   @extend .container-fluid;
   .slides{
-    section.present{}
+    section.present{
+      //
+    }
   }
 }
