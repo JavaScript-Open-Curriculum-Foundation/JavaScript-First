@@ -65,6 +65,10 @@ GitPod is used to provide my readers with a zero-config developer environment wh
   - React
   - MongoDB
 
+## Open in an Online IDE of your choice
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JavaScript-Open-Curriculum-Foundation/JavaScript-First)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/JavaScript-Open-Curriculum-Foundation/JavaScript-First)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/JavaScript-Open-Curriculum-Foundation/JavaScript-First)
 
 ## For more content:
 This book is still in **early access** and is designed to provide an **interactive experiance** through [GitPod](http://gitpod.io/), [Twitch ![Twitch Status](https://img.shields.io/twitch/status/hansoncoding?label=)](https://twitch.tv/hansoncoding), [codetogether](https://www.codetogether.com/), [gitduck](https://gitduck.com/) and other means of activities that facilitate remote learning.
